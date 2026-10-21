@@ -82,3 +82,15 @@ Photorealistic fine-dining food photograph for a Polish restaurant in Toruń. On
 ```
 [styl] Braised beef cheeks glossy with dark mushroom demi-glace, a mound of horseradish mashed potato, red-wine-vinegar beetroot, a crisp potato nest on top.
 ```
+
+---
+
+# Katarzynka — настоящий торуньский пряник (`katarzynka.webp`)
+Для: замены нарисованных katarzynek (секция «Piernik nie tylko na deser», 404) и как референс к перегенерации тирамису. Лучше приложить к генерации 1–2 своих фото настоящей katarzynki как референс формы.
+```
+Photorealistic close-up food photograph of a traditional Toruń gingerbread cookie "katarzynka" (Polish: Katarzynka toruńska). Correct shape: one flat cookie made of six round lobes joined together in two rows of three, with a gentle arch, deep rounded notches between the lobes, smooth scalloped outline — like a small cloud, about 7 cm wide. Baked dense honey gingerbread, warm chestnut-brown, satin sheen of a thin sugar glaze, fine crumb texture visible on the edges, a few tiny cracks. Lying flat on a dark walnut board, warm low side light from a window on the left, deep brown and gold tones, soft long shadow, shallow depth of field, a lot of calm dark negative space on the right. Editorial, natural, not glossy advertising. No icing decorations, no chocolate coating, no text, no logos, no hands. Square 1:1, 2400×2400.
+```
+Перегенерация тирамису с правильными katarzynkami — в общий стиль блюд добавить:
+```
+[styl] A neat square of tiramisu with velvety mascarpone cream on a dark plate, dusted with cocoa. Beside it two small Toruń gingerbread cookies "katarzynki": each a flat cookie of six round lobes joined in two rows of three, gentle arch, deep notches, warm chestnut-brown with a thin satin glaze — not round balls, not a chain. Vertical 4:5.
+```

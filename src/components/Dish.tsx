@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import type { Dish as DishT } from "@/content/menu";
 import { tagLabels } from "@/content/menu";
 import { DishPhoto } from "@/components/DishPhoto";
@@ -19,13 +20,15 @@ export function Parts({ parts }: { parts: string[] }) {
 }
 
 // Karta dania jako deska formy piernikowej.
-export function MoldCard({ dish, course, photo = false }: { dish: DishT; course?: string; photo?: boolean }) {
+// `note` zastępuje listę składników (np. wyróżniony piernikowy składnik); `lifted` — na tle z drewna,
+// żeby deska odcinała się od ściany: jaśniejsza, złota krawędź i głębszy cień.
+export function MoldCard({ dish, course, photo = false, note, lifted = false }: { dish: DishT; course?: string; photo?: boolean; note?: ReactNode; lifted?: boolean }) {
   return (
-    <article className="mold group flex h-full flex-col rounded-[22px] p-7 text-icing">
+    <article className={`mold group flex h-full flex-col rounded-[22px] p-7 text-icing ${lifted ? "mold-lifted" : ""}`}>
       {photo && <DishPhoto name={dish.name} className="-mx-3 -mt-3 mb-6 aspect-[4/3] rounded-[16px]" />}
       {course && <p className="text-sm font-semibold text-gold-hi">{course}</p>}
       <h3 className="mt-2 text-[1.7rem]">{dish.name}</h3>
-      <p className="mt-3 flex-1 text-[15.5px] leading-relaxed text-sand"><Parts parts={dish.parts} /></p>
+      {note ?? <p className="mt-3 flex-1 text-[15.5px] leading-relaxed text-sand"><Parts parts={dish.parts} /></p>}
       <p className="mt-5 text-lg font-extrabold text-gold-hi tabular-nums">{dish.price} zł</p>
     </article>
   );

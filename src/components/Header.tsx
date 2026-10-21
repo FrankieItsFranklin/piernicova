@@ -13,9 +13,12 @@ import { track } from "@/lib/track";
 
 export function Logo() {
   return (
-    <span className="flex flex-col leading-none">
-      <span className="font-serif text-[1.75rem] tracking-[0.02em] text-icing">Piernicova</span>
-      <span className="mt-1 text-[13px] font-semibold tracking-[0.06em] text-gold-hi">{site.byline} · {site.city}</span>
+    <span className="flex items-center gap-3">
+      <Katarzynka className="w-12 shrink-0 sm:w-14" />
+      <span className="flex flex-col leading-none">
+        <span className="font-serif text-[1.75rem] tracking-[0.02em] text-icing">Piernicova</span>
+        <span className="mt-1 text-[13px] font-semibold tracking-[0.06em] text-gold-hi">{site.byline} · {site.city}</span>
+      </span>
     </span>
   );
 }
@@ -62,7 +65,7 @@ export function Header() {
           </ul>
         </nav>
         <div className="ml-auto flex items-center gap-3 lg:ml-3">
-          <Link href="/rezerwacja" className="btn btn-icing !min-h-11 !px-5 whitespace-nowrap" onClick={() => track("reservation_start", { place: "header" })}>
+          <Link href="/rezerwacja" className="btn btn-icing !min-h-11 !px-5 hidden whitespace-nowrap sm:inline-flex" onClick={() => track("reservation_start", { place: "header" })}>
             Zarezerwuj
           </Link>
           <button

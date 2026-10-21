@@ -7,7 +7,6 @@ import { IcingRule } from "@/components/IcingRule";
 import { Reveal } from "@/components/Reveal";
 import { Photo } from "@/components/Photo";
 import { Katarzynka } from "@/components/Katarzynka";
-import { DishPhoto } from "@/components/DishPhoto";
 import { allDishes, featured } from "@/content/menu";
 import { photos } from "@/content/photos";
 import { site, seating } from "@/content/site";
@@ -19,24 +18,15 @@ export default function Home() {
   return (
     <>
       {/* 1. Forma piernikowa + bon */}
-      <section aria-labelledby="h1" className="wood wood-glow relative overflow-hidden pt-[78px]">
+      <section aria-labelledby="h1" className="wood relative overflow-hidden pt-[78px]">
         <div className="absolute inset-0 bg-[radial-gradient(55%_60%_at_80%_55%,rgb(236_211_138/0.1),transparent_70%)]" aria-hidden="true" />
         <div className="container-site relative grid items-start gap-12 pb-20 pt-10 md:pt-14 lg:grid-cols-[1.1fr_minmax(330px,440px)] lg:gap-20 lg:pb-28">
           <div>
-            <p className="font-semibold tracking-[0.02em] text-gold-hi">Toruń, gotycka starówka · od {site.founded}</p>
-            <p className="carved mt-3 select-none text-[clamp(3.4rem,9.6vw,8.8rem)] leading-[0.9]" aria-hidden="true">Piernicova</p>
+            <p className="carved select-none text-[clamp(3.4rem,9.6vw,8.8rem)] leading-[0.9]" aria-hidden="true">Piernicova</p>
             <h1 id="h1" className="mt-5 max-w-[20ch] text-[clamp(1.9rem,3.4vw,3rem)]">Kuchnia polska z piernikowym akcentem, przy murach Przedzamcza</h1>
-            <p className="mt-5 max-w-xl text-sand">
-              Śledź po toruńsku z musztardą piernikową, kaczka z sosem z gruszki, piernika i porto, tiramisu z katarzynkami. Na piętrze siadasz przy otwartej kuchni szefa {site.chefGen}.
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Link href="/menu" className="btn btn-gold">Zobacz kartę</Link>
-              <Link href="/wydarzenia" className="link-u px-2 font-semibold text-sand hover:text-icing">Kolacja dla grupy</Link>
-            </div>
-            <p className="mt-6 text-sand"><OpenNow /> <span className="text-sand/80">· {site.address.street}</span></p>
-            <ul className="mt-7 flex max-w-xl flex-wrap gap-x-5 gap-y-1.5 border-t border-gold/35 pt-5 text-[15px] text-sand" aria-label="Wyróżnienia">
-              {site.awards.map((a) => <li key={a.label}>{a.label}</li>)}
-            </ul>
+            <p className="mt-5 max-w-md text-sand">Na piętrze siadasz przy otwartej kuchni szefa {site.chefGen}.</p>
+            <Link href="/menu" className="btn btn-gold mt-8">Zobacz kartę</Link>
+            <p className="mt-6 text-sand"><OpenNow /> <span className="text-sand/80">· {site.address.street}, {site.city}</span></p>
           </div>
           <BookingTicket />
         </div>
@@ -77,16 +67,20 @@ export default function Home() {
             {piernikDishes.map((d, i) => {
               const piernikPart = d.parts.find((p) => /piernik|katarzynk/.test(p)) ?? "";
               return (
-                <Reveal as="li" key={d.name} delay={i * 0.08} className="mold group flex flex-col overflow-hidden rounded-[24px]">
-                  <DishPhoto name={d.name} className="aspect-[4/5] w-full" />
-                  <div className="flex flex-1 flex-col p-6">
-                    <p className="text-sm font-semibold text-gold-hi">{d.course}</p>
-                    <h3 className="mt-1.5 text-[1.7rem]">{d.name}</h3>
-                    <p className="mt-3 inline-flex items-center gap-2 self-start rounded-full bg-gold/15 px-3 py-1 text-[15px] font-semibold text-gold-hi ring-1 ring-gold/40">
-                      <Katarzynka className="w-5" gloss={false} />{piernikPart}
-                    </p>
-                    <p className="mt-auto pt-5 text-lg font-extrabold text-gold-hi tabular-nums">{d.price} zł</p>
-                  </div>
+                <Reveal as="li" key={d.name} delay={i * 0.08}>
+                  <MoldCard
+                    dish={d}
+                    course={d.course}
+                    photo
+                    lifted
+                    note={
+                      <p className="mt-3 flex-1 self-start">
+                        <span className="inline-flex items-center gap-2 rounded-full bg-gold/15 px-3 py-1 text-[15px] font-semibold text-gold-hi ring-1 ring-gold/40">
+                          <Katarzynka className="w-5" gloss={false} />{piernikPart}
+                        </span>
+                      </p>
+                    }
+                  />
                 </Reveal>
               );
             })}
@@ -101,6 +95,9 @@ export default function Home() {
         <div className="container-site pb-16 pt-32 md:pb-24">
           <h2 id="kuchnia-t" className="max-w-3xl text-[clamp(2.2rem,5vw,4.2rem)]">Na piętrze kuchnia jest na widoku</h2>
           <p className="mt-5 max-w-xl text-lg text-sand">Otwarta kuchnia to serce Piernicovej: przy stolikach na piętrze widzisz, jak zespół szefa {site.chefGen} przygotowuje dania.</p>
+          <ul className="mt-5 flex max-w-2xl flex-wrap gap-x-5 gap-y-1.5 text-[15px] text-sand" aria-label="Wyróżnienia">
+            {site.awards.map((a) => <li key={a.label}>{a.label}</li>)}
+          </ul>
           <Link href="/kuchnia" className="btn btn-icing mt-8">O kuchni i szefie <ArrowUpRight className="size-4" aria-hidden="true" /></Link>
         </div>
         {photos.kitchen.ready && <p className="absolute bottom-3 right-4 text-[13px] text-white/80">Zdjęcie poglądowe</p>}
