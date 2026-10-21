@@ -16,7 +16,7 @@ export default function RezerwacjaPage() {
   return (
     <>
       <PageHero crumb="Rezerwacja" carved="Stolik" title="Rezerwacja stolika" lead="Wypełnij bon — oddzwonimy, żeby potwierdzić stolik." />
-      <section aria-label="Formularz rezerwacji" className="wood pb-24">
+      <section aria-label="Formularz rezerwacji" className="wood wood-glow pb-24">
         <div className="container-site grid items-start gap-14 lg:grid-cols-[minmax(330px,460px)_1fr] lg:gap-20">
           <BookingTicket id="bon-strona" />
           <div className="pt-10">

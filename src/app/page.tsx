@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       {/* 1. Forma piernikowa + bon */}
-      <section aria-labelledby="h1" className="wood relative overflow-hidden pt-[78px]">
+      <section aria-labelledby="h1" className="wood wood-glow relative overflow-hidden pt-[78px]">
         <div className="absolute inset-0 bg-[radial-gradient(55%_60%_at_80%_55%,rgb(236_211_138/0.1),transparent_70%)]" aria-hidden="true" />
         <div className="container-site relative grid items-start gap-12 pb-20 pt-10 md:pt-14 lg:grid-cols-[1.1fr_minmax(330px,440px)] lg:gap-20 lg:pb-28">
           <div>
