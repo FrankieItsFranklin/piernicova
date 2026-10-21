@@ -1,0 +1,495 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://localhost:3200/rezerwacja",
+   "firstScreen": {
+    "headings": [
+     "Rezerwacja stolika",
+     "Zarezerwuj stolik"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 3232,
+   "title": "Rezerwacja stolika · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Rezerwacja stolika",
+    "H2: Zarezerwuj stolik",
+    "H2: Dobrze wiedzieć",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#F8F4EC",
+      "share": 17
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 1
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#FBF6EE",
+     "#6A5646",
+     "#ECD38A",
+     "#22140B",
+     "#3A2314"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 1005
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 170
+     },
+     {
+      "family": "Gloock",
+      "chars": 93
+     }
+    ],
+    "h1": {
+     "text": "Rezerwacja stolika",
+     "font": "Gloock",
+     "size": "36.8px",
+     "weight": "400",
+     "lineHeight": "39.008px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Zarezerwuj stolik",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "32px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Stolik",
+     "font": "Gloock",
+     "size": "54.4px",
+     "weight": "400",
+     "lineHeight": "48.96px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#3A2314"
+    },
+    "scale": [
+     54,
+     37,
+     32,
+     29,
+     28,
+     24,
+     20,
+     18,
+     17,
+     16,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "6px",
+     3
+    ],
+    [
+     "999px",
+     2
+    ],
+    [
+     "12px",
+     1
+    ],
+    [
+     "10px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     3
+    ],
+    [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+     1
+    ],
+    [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "0/96"
+    ],
+    "containers": [
+     [
+      "1320px",
+      5
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "672px",
+      1
+     ],
+     [
+      "384px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Dziś",
+     "bg": "#22140B",
+     "color": "#F8F4EC",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #22140B",
+     "href": null
+    },
+    {
+     "text": "Jutro",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    },
+    {
+     "text": "piątek",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 7
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://localhost:3200/rezerwacja",
+   "firstScreen": {
+    "headings": [
+     "Rezerwacja stolika",
+     "Zarezerwuj stolik",
+     "Dobrze wiedzieć"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 1980,
+   "title": "Rezerwacja stolika · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Rezerwacja stolika",
+    "H2: Zarezerwuj stolik",
+    "H2: Dobrze wiedzieć",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#F8F4EC",
+      "share": 9
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 0
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#FBF6EE",
+     "#6A5646",
+     "#ECD38A",
+     "#22140B",
+     "#3A2314"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 1041
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 170
+     },
+     {
+      "family": "Gloock",
+      "chars": 93
+     }
+    ],
+    "h1": {
+     "text": "Rezerwacja stolika",
+     "font": "Gloock",
+     "size": "67.2px",
+     "weight": "400",
+     "lineHeight": "71.232px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Zarezerwuj stolik",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "32px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Stolik",
+     "font": "Gloock",
+     "size": "144px",
+     "weight": "400",
+     "lineHeight": "129.6px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#3A2314"
+    },
+    "scale": [
+     144,
+     67,
+     38,
+     32,
+     28,
+     24,
+     20,
+     18,
+     17,
+     16,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "8px",
+     5
+    ],
+    [
+     "6px",
+     3
+    ],
+    [
+     "999px",
+     2
+    ],
+    [
+     "10px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     3
+    ],
+    [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "0/96"
+    ],
+    "containers": [
+     [
+      "1320px",
+      5
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "672px",
+      1
+     ],
+     [
+      "384px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Dziś",
+     "bg": "#22140B",
+     "color": "#F8F4EC",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #22140B",
+     "href": null
+    },
+    {
+     "text": "Jutro",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    },
+    {
+     "text": "piątek",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 7
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://localhost:3200/rezerwacja",
+ "captured": "2026-10-21"
+}

@@ -1,0 +1,365 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/A-forma.html",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia polska z piernikowym akcentem, przy murach Przedzamc"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 2191,
+   "title": "Piernicova — kierunek A: Forma piernikowa",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia polska z piernikowym akcentem, przy murach",
+    "H2: Karta na jesień",
+    "H3: Śledź po toruńsku",
+    "H3: Kaczka rose",
+    "H3: Tiramisu po toruńsku"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 49
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#E6D3BD",
+     "#FBF6EE",
+     "#ECD38A",
+     "#22140B",
+     "#5B4434"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 725
+     },
+     {
+      "family": "Gloock",
+      "chars": 165
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia polska z piernikowym akcentem, p",
+     "font": "Gloock",
+     "size": "30.4px",
+     "weight": "400",
+     "lineHeight": "32.832px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Karta na jesień",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "33.6px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Toruń, gotycka starówka · od 2019",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "0.34px",
+     "transform": "none",
+     "color": "#ECD38A"
+    },
+    "scale": [
+     54,
+     32,
+     30,
+     27,
+     26,
+     18,
+     17,
+     16,
+     15,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "999px",
+     3
+    ],
+    [
+     "22px",
+     3
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     3
+    ],
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgb(201, 162, 74) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "24/56",
+     "56/56"
+    ],
+    "containers": [
+     [
+      "1320px",
+      3
+     ],
+     [
+      "399.456px",
+      1
+     ],
+     [
+      "544px",
+      1
+     ],
+     [
+      "300px",
+      1
+     ]
+    ]
+   },
+   "buttons": [],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "#"
+    ],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 1
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/A-forma.html",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia polska z piernikowym akcentem, przy murach Przedzamc"
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj stolik"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 1613,
+   "title": "Piernicova — kierunek A: Forma piernikowa",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia polska z piernikowym akcentem, przy murach",
+    "H2: Karta na jesień",
+    "H3: Śledź po toruńsku",
+    "H3: Kaczka rose",
+    "H3: Tiramisu po toruńsku"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 41
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#E6D3BD",
+     "#FBF6EE",
+     "#ECD38A",
+     "#22140B",
+     "#5B4434"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 764
+     },
+     {
+      "family": "Gloock",
+      "chars": 165
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia polska z piernikowym akcentem, p",
+     "font": "Gloock",
+     "size": "51.2px",
+     "weight": "400",
+     "lineHeight": "55.296px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Karta na jesień",
+     "font": "Gloock",
+     "size": "54.4px",
+     "weight": "400",
+     "lineHeight": "57.12px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Toruń, gotycka starówka · od 2019",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "0.34px",
+     "transform": "none",
+     "color": "#ECD38A"
+    },
+    "scale": [
+     144,
+     54,
+     51,
+     27,
+     26,
+     18,
+     17,
+     16,
+     15,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "999px",
+     3
+    ],
+    [
+     "22px",
+     3
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     3
+    ],
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgb(201, 162, 74) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "72/110",
+     "110/110"
+    ],
+    "containers": [
+     [
+      "1320px",
+      3
+     ],
+     [
+      "672.768px",
+      1
+     ],
+     [
+      "544px",
+      1
+     ],
+     [
+      "520px",
+      1
+     ]
+    ]
+   },
+   "buttons": [],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "#"
+    ],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 1
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://127.0.0.1:8750/directions/A-forma.html",
+ "captured": "2026-10-21"
+}

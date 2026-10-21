@@ -1,0 +1,557 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/C-karta.html",
+   "firstScreen": {
+    "headings": [
+     "Restauracja Piernicova w gotyckim Toruniu: kuchnia polska z "
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj stolik"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 1563,
+   "title": "Piernicova — kierunek C: Karta ze skośnikami",
+   "lang": "pl",
+   "headings": [
+    "H1: Restauracja Piernicova w gotyckim Toruniu: kuchnia",
+    "H2: Zupy na jesień",
+    "H3: Jesienna grzybowa na zakwasie",
+    "H3: Polska chrzanowa",
+    "H3: Zupa rybna"
+   ],
+   "color": {
+    "body": "#3B1D2C",
+    "backgrounds": [
+     {
+      "hex": "#3B1D2C",
+      "share": 53
+     },
+     {
+      "hex": "#F6EFE8",
+      "share": 44
+     },
+     {
+      "hex": "#E2782C",
+      "share": 3
+     },
+     {
+      "hex": "#8A5232",
+      "share": 0
+     },
+     {
+      "hex": "#B7C06C",
+      "share": 0
+     },
+     {
+      "hex": "#6B2A3A",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#6A4E5A",
+     "#F6EFE8",
+     "#B7C06C",
+     "#2A1520",
+     "#E6D4D8",
+     "#2A1105"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 486
+     },
+     {
+      "family": "Newsreader",
+      "chars": 304
+     }
+    ],
+    "h1": {
+     "text": "Restauracja Piernicova w gotyckim Toruni",
+     "font": "Newsreader",
+     "size": "20px",
+     "weight": "400",
+     "lineHeight": "27px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#F6EFE8"
+    },
+    "h2": {
+     "text": "Zupy na jesień",
+     "font": "Newsreader",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "33.6px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#2A1520"
+    },
+    "body": {
+     "text": "Karta na jesień · Toruń, Przedzamcze 6B",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#B7C06C"
+    },
+    "scale": [
+     37,
+     32,
+     29,
+     24,
+     20,
+     18,
+     17,
+     16,
+     15,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "999px",
+     4
+    ],
+    [
+     "16px 16px 16px 4px",
+     3
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(226, 120, 44, 0.8) 0px 12px 26px -12px",
+     2
+    ],
+    [
+     "rgba(246, 239, 232, 0.6) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "16/40",
+     "56/56"
+    ],
+    "containers": [
+     [
+      "1320px",
+      2
+     ],
+     [
+      "441.482px",
+      1
+     ],
+     [
+      "389.099px",
+      1
+     ],
+     [
+      "1100px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Zarezerwuj",
+     "bg": "#E2782C",
+     "color": "#2A1105",
+     "radius": "16px 16px 16px 4px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "#"
+    },
+    {
+     "text": "dynia",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": null,
+     "href": null
+    },
+    {
+     "text": "grzyby",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": "1px #F6EFE8",
+     "href": null
+    },
+    {
+     "text": "gruszka",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": null,
+     "href": null
+    },
+    {
+     "text": "śliwka",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": null,
+     "href": null
+    },
+    {
+     "text": "Zarezerwuj stolik",
+     "bg": "#E2782C",
+     "color": "#2A1105",
+     "radius": "16px 16px 16px 4px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "#"
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "#"
+    ],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 0
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/C-karta.html",
+   "firstScreen": {
+    "headings": [
+     "Restauracja Piernicova w gotyckim Toruniu: kuchnia polska z "
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj stolik"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 1511,
+   "title": "Piernicova — kierunek C: Karta ze skośnikami",
+   "lang": "pl",
+   "headings": [
+    "H1: Restauracja Piernicova w gotyckim Toruniu: kuchnia",
+    "H2: Zupy na jesień",
+    "H3: Jesienna grzybowa na zakwasie",
+    "H3: Polska chrzanowa",
+    "H3: Zupa rybna"
+   ],
+   "color": {
+    "body": "#3B1D2C",
+    "backgrounds": [
+     {
+      "hex": "#3B1D2C",
+      "share": 60
+     },
+     {
+      "hex": "#F6EFE8",
+      "share": 39
+     },
+     {
+      "hex": "#E2782C",
+      "share": 1
+     },
+     {
+      "hex": "#8A5232",
+      "share": 0
+     },
+     {
+      "hex": "#B7C06C",
+      "share": 0
+     },
+     {
+      "hex": "#6B2A3A",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#6A4E5A",
+     "#F6EFE8",
+     "#B7C06C",
+     "#2A1520",
+     "#E6D4D8",
+     "#2A1105"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 525
+     },
+     {
+      "family": "Newsreader",
+      "chars": 304
+     }
+    ],
+    "h1": {
+     "text": "Restauracja Piernicova w gotyckim Toruni",
+     "font": "Newsreader",
+     "size": "25.6px",
+     "weight": "400",
+     "lineHeight": "34.56px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#F6EFE8"
+    },
+    "h2": {
+     "text": "Zupy na jesień",
+     "font": "Newsreader",
+     "size": "54.4px",
+     "weight": "400",
+     "lineHeight": "57.12px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#2A1520"
+    },
+    "body": {
+     "text": "Karta na jesień · Toruń, Przedzamcze 6B",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#B7C06C"
+    },
+    "scale": [
+     92,
+     54,
+     29,
+     26,
+     24,
+     17,
+     16,
+     15,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "999px",
+     4
+    ],
+    [
+     "16px 16px 16px 4px",
+     3
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(226, 120, 44, 0.8) 0px 12px 26px -12px",
+     2
+    ],
+    [
+     "rgba(246, 239, 232, 0.6) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "48/40",
+     "104/104"
+    ],
+    "containers": [
+     [
+      "1320px",
+      2
+     ],
+     [
+      "570.406px",
+      1
+     ],
+     [
+      "1028.51px",
+      1
+     ],
+     [
+      "1100px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Zarezerwuj",
+     "bg": "#E2782C",
+     "color": "#2A1105",
+     "radius": "16px 16px 16px 4px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "#"
+    },
+    {
+     "text": "dynia",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": null,
+     "href": null
+    },
+    {
+     "text": "grzyby",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": "1px #F6EFE8",
+     "href": null
+    },
+    {
+     "text": "gruszka",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": null,
+     "href": null
+    },
+    {
+     "text": "śliwka",
+     "bg": null,
+     "color": "#F6EFE8",
+     "radius": "999px",
+     "height": 34,
+     "padding": "6.4px 12.8px 6.4px 7.2px",
+     "font": "Hanken Grotesk",
+     "size": "14.72px",
+     "weight": "400",
+     "transform": "none",
+     "border": null,
+     "href": null
+    },
+    {
+     "text": "Zarezerwuj stolik",
+     "bg": "#E2782C",
+     "color": "#2A1105",
+     "radius": "16px 16px 16px 4px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "#"
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "#"
+    ],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 0
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://127.0.0.1:8750/directions/C-karta.html",
+ "captured": "2026-10-21"
+}

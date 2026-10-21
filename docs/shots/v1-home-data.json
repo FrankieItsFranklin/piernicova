@@ -1,0 +1,574 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://localhost:3200/",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia polska z piernikowym akcentem, przy murach Przedzamc"
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 7439,
+   "title": "Piernicova — restauracja w Toruniu, kuchnia polska z piernikowym akcentem",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia polska z piernikowym akcentem, przy murach",
+    "H2: Zarezerwuj stolik",
+    "H2: Karta na jesień",
+    "H3: Śledź po toruńsku",
+    "H3: Kaczka rose",
+    "H3: Tiramisu po toruńsku",
+    "H2: Piernik nie tylko na deser",
+    "H2: Na piętrze kuchnia jest na widoku",
+    "H2: Gdzie usiąść",
+    "H3: Przy otwartej kuchni",
+    "H3: Parter",
+    "H3: Taras",
+    "H2: Kolacja dla grupy",
+    "H2: Voucher na prezent",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 31
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 7
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#6A5646",
+     "#FBF6EE",
+     "#ECD38A",
+     "#22140B",
+     "#3A2314"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 2131
+     },
+     {
+      "family": "Gloock",
+      "chars": 374
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 199
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia polska z piernikowym akcentem, p",
+     "font": "Gloock",
+     "size": "30.4px",
+     "weight": "400",
+     "lineHeight": "32.224px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Zarezerwuj stolik",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "32px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Toruń, gotycka starówka · od 2019",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "0.34px",
+     "transform": "none",
+     "color": "#ECD38A"
+    },
+    "scale": [
+     54,
+     35,
+     34,
+     32,
+     30,
+     28,
+     27,
+     24,
+     20,
+     18,
+     17,
+     16
+    ]
+   },
+   "radius": [
+    [
+     "999px",
+     6
+    ],
+    [
+     "6px",
+     3
+    ],
+    [
+     "22px",
+     3
+    ],
+    [
+     "26px",
+     2
+    ],
+    [
+     "12px",
+     1
+    ],
+    [
+     "10px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     5
+    ],
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     4
+    ],
+    [
+     "rgb(201, 162, 74) 0px 0px 0px 1.5px inset",
+     2
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "96/96"
+    ],
+    "containers": [
+     [
+      "1320px",
+      9
+     ],
+     [
+      "576px",
+      5
+     ],
+     [
+      "448px",
+      2
+     ],
+     [
+      "399.456px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Dziś",
+     "bg": "#22140B",
+     "color": "#F8F4EC",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #22140B",
+     "href": null
+    },
+    {
+     "text": "Jutro",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    },
+    {
+     "text": "piątek",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    },
+    {
+     "text": "Cała karta",
+     "bg": "#22140B",
+     "color": "#FBF6EE",
+     "radius": "999px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "/menu"
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 4,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "/rezerwacja",
+     "/wydarzenia"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 14
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://localhost:3200/",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia polska z piernikowym akcentem, przy murach Przedzamc",
+     "Zarezerwuj stolik"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 4731,
+   "title": "Piernicova — restauracja w Toruniu, kuchnia polska z piernikowym akcentem",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia polska z piernikowym akcentem, przy murach",
+    "H2: Zarezerwuj stolik",
+    "H2: Karta na jesień",
+    "H3: Śledź po toruńsku",
+    "H3: Kaczka rose",
+    "H3: Tiramisu po toruńsku",
+    "H2: Piernik nie tylko na deser",
+    "H2: Na piętrze kuchnia jest na widoku",
+    "H2: Gdzie usiąść",
+    "H3: Przy otwartej kuchni",
+    "H3: Parter",
+    "H3: Taras",
+    "H2: Kolacja dla grupy",
+    "H2: Voucher na prezent",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 28
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 3
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#6A5646",
+     "#FBF6EE",
+     "#ECD38A",
+     "#22140B",
+     "#3A2314"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 2150
+     },
+     {
+      "family": "Gloock",
+      "chars": 374
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 199
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia polska z piernikowym akcentem, p",
+     "font": "Gloock",
+     "size": "48px",
+     "weight": "400",
+     "lineHeight": "50.88px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Zarezerwuj stolik",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "32px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Toruń, gotycka starówka · od 2019",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "0.34px",
+     "transform": "none",
+     "color": "#ECD38A"
+    },
+    "scale": [
+     138,
+     67,
+     58,
+     48,
+     45,
+     32,
+     28,
+     27,
+     24,
+     20,
+     18,
+     17
+    ]
+   },
+   "radius": [
+    [
+     "8px",
+     5
+    ],
+    [
+     "999px",
+     4
+    ],
+    [
+     "6px",
+     3
+    ],
+    [
+     "22px",
+     3
+    ],
+    [
+     "26px",
+     2
+    ],
+    [
+     "10px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     5
+    ],
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     3
+    ],
+    [
+     "rgb(201, 162, 74) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "112/112"
+    ],
+    "containers": [
+     [
+      "1320px",
+      9
+     ],
+     [
+      "576px",
+      5
+     ],
+     [
+      "448px",
+      2
+     ],
+     [
+      "630.72px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Dziś",
+     "bg": "#22140B",
+     "color": "#F8F4EC",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #22140B",
+     "href": null
+    },
+    {
+     "text": "Jutro",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    },
+    {
+     "text": "piątek",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 31,
+     "padding": "4px 10px",
+     "font": "IBM Plex Mono",
+     "size": "13px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    },
+    {
+     "text": "Cała karta",
+     "bg": "#22140B",
+     "color": "#FBF6EE",
+     "radius": "999px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "/menu"
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 3,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "/rezerwacja",
+     "/wydarzenia"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 14
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://localhost:3200/",
+ "captured": "2026-10-21"
+}

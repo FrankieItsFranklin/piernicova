@@ -1,0 +1,392 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://localhost:3201/kontakt",
+   "firstScreen": {
+    "headings": [
+     "Przedzamcze 6B, Toruń",
+     "Telefon i e-mail"
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 3197,
+   "title": "Kontakt i dojazd — ul. Przedzamcze 6B, Toruń · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Przedzamcze 6B, Toruń",
+    "H2: Telefon i e-mail",
+    "H2: Adres",
+    "H2: Godziny",
+    "H2: Stolik na dziś?",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 30
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 16
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#FBF6EE",
+     "#22140B",
+     "#ECD38A",
+     "#6A5646",
+     "#874519"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 887
+     },
+     {
+      "family": "Gloock",
+      "chars": 78
+     }
+    ],
+    "h1": {
+     "text": "Przedzamcze 6B, Toruń",
+     "font": "Gloock",
+     "size": "36.8px",
+     "weight": "400",
+     "lineHeight": "39.008px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Telefon i e-mail",
+     "font": "Hanken Grotesk",
+     "size": "14px",
+     "weight": "600",
+     "lineHeight": "20px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#6A5646"
+    },
+    "body": {
+     "text": "Toruń",
+     "font": "Gloock",
+     "size": "54.4px",
+     "weight": "400",
+     "lineHeight": "48.96px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#3A2314"
+    },
+    "scale": [
+     54,
+     37,
+     30,
+     28,
+     24,
+     20,
+     18,
+     17,
+     16,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "22px",
+     5
+    ],
+    [
+     "999px",
+     4
+    ],
+    [
+     "12px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     3
+    ],
+    [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+     1
+    ],
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "80/80"
+    ],
+    "containers": [
+     [
+      "1320px",
+      5
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "672px",
+      1
+     ],
+     [
+      "384px",
+      1
+     ]
+    ]
+   },
+   "buttons": [],
+   "conversion": {
+    "bookingCtas": 4,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 5
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://localhost:3201/kontakt",
+   "firstScreen": {
+    "headings": [
+     "Przedzamcze 6B, Toruń",
+     "Telefon i e-mail",
+     "Adres",
+     "Godziny"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 2018,
+   "title": "Kontakt i dojazd — ul. Przedzamcze 6B, Toruń · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Przedzamcze 6B, Toruń",
+    "H2: Telefon i e-mail",
+    "H2: Adres",
+    "H2: Godziny",
+    "H2: Stolik na dziś?",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 32
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 8
+     },
+     {
+      "hex": "#C9A24A",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#FBF6EE",
+     "#22140B",
+     "#ECD38A",
+     "#6A5646",
+     "#874519"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 906
+     },
+     {
+      "family": "Gloock",
+      "chars": 78
+     }
+    ],
+    "h1": {
+     "text": "Przedzamcze 6B, Toruń",
+     "font": "Gloock",
+     "size": "67.2px",
+     "weight": "400",
+     "lineHeight": "71.232px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Telefon i e-mail",
+     "font": "Hanken Grotesk",
+     "size": "14px",
+     "weight": "600",
+     "lineHeight": "20px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#6A5646"
+    },
+    "body": {
+     "text": "Toruń",
+     "font": "Gloock",
+     "size": "144px",
+     "weight": "400",
+     "lineHeight": "129.6px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#3A2314"
+    },
+    "scale": [
+     144,
+     67,
+     30,
+     28,
+     24,
+     20,
+     17,
+     16,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "8px",
+     5
+    ],
+    [
+     "22px",
+     5
+    ],
+    [
+     "999px",
+     2
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "96/96"
+    ],
+    "containers": [
+     [
+      "1320px",
+      5
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "672px",
+      1
+     ],
+     [
+      "384px",
+      1
+     ]
+    ]
+   },
+   "buttons": [],
+   "conversion": {
+    "bookingCtas": 3,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 5
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://localhost:3201/kontakt",
+ "captured": "2026-10-21"
+}

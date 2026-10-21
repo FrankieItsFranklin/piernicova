@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piernicova — kierunek A: Forma piernikowa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400..800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --walnut:#2a190f; --walnut-2:#3b2416; --walnut-hi:#5a3923;
+  --dough:#a85f2c; --dough-hi:#d08a4c; --dough-lo:#6e3a17;
+  --icing:#fbf6ee; --gold:#c9a24a; --gold-hi:#ecd38a;
+  --cherry:#7a1e2c; --ink:#22140b;
+  --serif:"Gloock",Georgia,serif; --sans:"Hanken Grotesk",system-ui,sans-serif;
+  --gutter:clamp(16px,4vw,56px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);font-size:1.0625rem;line-height:1.6;color:var(--icing);background:var(--walnut)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold-hi);outline-offset:3px;border-radius:6px}
+
+/* drewno formy: słoje orzecha */
+.wood{position:relative;overflow:hidden;
+  background:
+    repeating-linear-gradient(93deg,rgba(255,220,180,.025) 0 2px,transparent 2px 9px),
+    repeating-radial-gradient(ellipse 140% 22% at 30% 40%,rgba(0,0,0,.18) 0 3px,transparent 3px 26px),
+    linear-gradient(170deg,var(--walnut-hi) 0%,var(--walnut-2) 35%,var(--walnut) 100%)}
+.top{max-width:1320px;margin:0 auto;padding:22px var(--gutter);display:flex;align-items:center;gap:24px;position:relative;z-index:2}
+.logo{font-family:var(--serif);font-size:1.7rem;letter-spacing:.02em;text-decoration:none}
+.logo small{display:block;font-family:var(--sans);font-size:.8rem;letter-spacing:.06em;color:var(--gold-hi);margin-top:-2px}
+.top nav{margin-left:auto;display:flex;gap:22px;font-weight:500}
+.top nav a{text-decoration:none;opacity:.88}
+.btn{display:inline-flex;align-items:center;gap:.6rem;min-height:52px;padding:.9rem 1.6rem;border-radius:999px;font:700 1rem/1 var(--sans);text-decoration:none;cursor:pointer;border:0}
+/* lukier: biały, lekko wypukły */
+.btn-icing{color:var(--ink);background:linear-gradient(180deg,#fff,#f1e6d6);box-shadow:inset 0 -3px 0 rgba(120,70,30,.25),0 0 0 2px rgba(255,255,255,.6),0 10px 24px -10px rgba(0,0,0,.7)}
+.btn-gold{color:var(--gold-hi);background:transparent;box-shadow:inset 0 0 0 1.5px var(--gold)}
+
+.hero{max-width:1320px;margin:0 auto;padding:clamp(24px,5vw,72px) var(--gutter) clamp(56px,8vw,110px);display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,4vw,64px);align-items:center;position:relative;z-index:1}
+/* nazwa wyciśnięta w drewnie jak w formie piernikowej */
+.carved{font-family:var(--serif);font-size:clamp(3.4rem,10vw,9.2rem);line-height:.9;letter-spacing:-.01em;color:#3a2314;
+  text-shadow:-2px -2px 1px rgba(0,0,0,.65),2px 2px 1px rgba(255,214,170,.18),0 0 1px rgba(0,0,0,.4);
+  -webkit-text-stroke:1px rgba(0,0,0,.25)}
+.since{color:var(--gold-hi);font-weight:600;letter-spacing:.02em;margin-bottom:1rem}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(1.9rem,3.6vw,3.2rem);line-height:1.08;margin-top:1.4rem;max-width:20ch}
+.lede{margin-top:1.1rem;max-width:34rem;color:#ead9c4}
+.act{margin-top:2rem;display:flex;flex-wrap:wrap;gap:12px 16px;align-items:center}
+.status{margin-top:1.2rem;display:flex;align-items:center;gap:.6rem;color:#ead9c4;font-size:.98rem}
+.status i{width:9px;height:9px;border-radius:50%;background:#7bd389;box-shadow:0 0 0 4px rgba(123,211,137,.18)}
+.mich{margin-top:1.6rem;display:inline-flex;gap:.6rem;align-items:center;font-size:.95rem;color:#ead9c4;border-top:1px solid rgba(201,162,74,.4);padding-top:1rem}
+
+/* katarzynka z lukrem */
+.kat{width:100%;max-width:520px;justify-self:center;filter:drop-shadow(0 30px 40px rgba(0,0,0,.55))}
+@media (prefers-reduced-motion:no-preference){
+  .icing-line{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 3.2s .4s cubic-bezier(.3,.7,.2,1) forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .gleam{animation:gleam 4s 2.4s ease-in-out infinite}
+  @keyframes gleam{0%,100%{opacity:.0}50%{opacity:.9}}
+}
+
+/* następny blok: karta jak deska z formami */
+.next{background:var(--icing);color:var(--ink);padding:clamp(56px,8vw,110px) 0}
+.wrap{max-width:1320px;margin:0 auto;padding:0 var(--gutter)}
+.next h2{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,4vw,3.4rem);line-height:1.05}
+.next .sub{margin-top:.8rem;color:#5b4434;max-width:40rem}
+.molds{margin-top:2.4rem;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.mold{position:relative;border-radius:22px;padding:28px 26px 26px;color:var(--icing);
+  background:repeating-linear-gradient(93deg,rgba(255,220,180,.03) 0 2px,transparent 2px 9px),linear-gradient(165deg,var(--walnut-hi),var(--walnut));
+  box-shadow:inset 0 0 0 8px rgba(0,0,0,.18),inset 0 0 0 9px rgba(255,214,170,.12),0 22px 40px -26px rgba(40,20,5,.8)}
+.mold .cat{font-size:.9rem;color:var(--gold-hi);font-weight:600}
+.mold h3{font-family:var(--serif);font-weight:400;font-size:1.65rem;line-height:1.1;margin-top:.5rem}
+.mold p{margin-top:.6rem;color:#e6d3bd;font-size:.98rem}
+.mold .price{margin-top:1rem;font-weight:800;font-size:1.15rem;color:var(--gold-hi);font-variant-numeric:tabular-nums}
+.more{margin-top:2rem;display:inline-block;font-weight:700;text-underline-offset:5px}
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr}
+  .kat{max-width:300px;order:-1}
+  .top nav{display:none}
+  .molds{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="wood">
+  <div class="top">
+    <a class="logo" href="#">Piernicova<small>by Witkowski · Toruń</small></a>
+    <nav aria-label="Główna"><a href="#">Menu</a><a href="#">Kuchnia</a><a href="#">Wino</a><a href="#">Wydarzenia</a><a href="#">Voucher</a><a href="#">Kontakt</a></nav>
+    <a class="btn btn-icing" href="#">Zarezerwuj</a>
+  </div>
+  <section class="hero" aria-labelledby="h1">
+    <div>
+      <p class="since">Toruń, gotycka starówka · od 2019</p>
+      <div class="carved" aria-hidden="true">Piernicova</div>
+      <h1 id="h1">Kuchnia polska z piernikowym akcentem, przy murach Przedzamcza</h1>
+      <p class="lede">Śledź po toruńsku z musztardą piernikową, kaczka z sosem z gruszki, piernika i porto, tiramisu z katarzynkami. Gotuje szef Bartłomiej Witkowski — przy otwartej kuchni.</p>
+      <div class="act">
+        <a class="btn btn-icing" href="#">Zarezerwuj stolik</a>
+        <a class="btn btn-gold" href="#">Zobacz kartę</a>
+      </div>
+      <p class="status"><i aria-hidden="true"></i> Dziś otwarte 13:00–22:00 · ul. Przedzamcze 6B</p>
+      <p class="mich">W przewodniku MICHELIN Polska 2026 · Poland 100 Best Restaurants</p>
+    </div>
+
+    <!-- katarzynka: ciasto + lukier rysowany w kodzie -->
+    <svg class="kat" viewBox="0 0 520 440" role="img" aria-label="Toruńska katarzynka z białym lukrem">
+      <defs>
+        <radialGradient id="dough" cx=".38" cy=".3" r=".85">
+          <stop offset="0" stop-color="#d9965a"/><stop offset=".55" stop-color="#a85f2c"/><stop offset="1" stop-color="#5e3013"/>
+        </radialGradient>
+        <filter id="crumb"><feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 .2  0 0 0 0 .1  0 0 0 0 .03  0 0 0 .45 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+        <path id="katShape" d="M260 70 C300 30 370 40 380 100 C430 90 480 140 450 190 C500 220 490 300 430 310 C440 370 370 400 330 360 C300 410 220 410 190 360 C150 400 80 370 90 310 C30 300 20 220 70 190 C40 140 90 90 140 100 C150 40 220 30 260 70 Z"/>
+      </defs>
+      <use href="#katShape" fill="url(#dough)"/>
+      <use href="#katShape" filter="url(#crumb)" fill="#000"/>
+      <use href="#katShape" fill="none" stroke="rgba(255,220,180,.25)" stroke-width="3" transform="translate(-2 -3)"/>
+      <!-- lukier -->
+      <path class="icing-line" d="M260 92 C296 60 352 68 360 114 C405 108 446 148 424 188 C466 214 458 280 410 290 C418 344 360 372 326 338 C300 382 226 382 200 338 C164 372 104 346 112 292 C62 282 56 214 98 190 C74 150 112 108 158 116 C168 68 224 60 260 92 Z" fill="none" stroke="#fbf6ee" stroke-width="6" stroke-linecap="round"/>
+      <path class="icing-line" d="M200 200 q30 -40 60 0 q30 -40 60 0 M190 250 q35 30 70 0 q35 30 70 0" fill="none" stroke="#fbf6ee" stroke-width="5" stroke-linecap="round"/>
+      <g fill="#fbf6ee"><circle cx="260" cy="150" r="7"/><circle cx="170" cy="230" r="6"/><circle cx="350" cy="230" r="6"/><circle cx="260" cy="310" r="7"/></g>
+      <!-- złoty listek -->
+      <path d="M248 214 l12 -14 l12 14 l-12 14 z" fill="#c9a24a"/><path class="gleam" d="M252 214 l8 -9 l3 3 l-8 9 z" fill="#fff6c8" opacity="0"/>
+    </svg>
+  </section>
+</header>
+
+<section class="next" aria-labelledby="karta">
+  <div class="wrap">
+    <h2 id="karta">Karta na jesień</h2>
+    <p class="sub">Kilka pozycji z obecnej karty. Ceny w złotych.</p>
+    <div class="molds">
+      <article class="mold"><p class="cat">Przystawka</p><h3>Śledź po toruńsku</h3><p>przyprawy korzenne / musztarda piernikowa / ziemniaki z ogniska / marynowane jabłka</p><p class="price">56 zł</p></article>
+      <article class="mold"><p class="cat">Danie główne</p><h3>Kaczka rose</h3><p>pierś sous-vide / suflet ziemniaczany / puree z dyni i czerwonych pomarańczy / sos z gruszki, piernika i porto</p><p class="price">82 zł</p></article>
+      <article class="mold"><p class="cat">Deser</p><h3>Tiramisu po toruńsku</h3><p>aksamitny krem / katarzynki / likier kawowy z Amaretto</p><p class="price">38 zł</p></article>
+    </div>
+    <a class="more" href="#">Cała karta i karta win</a>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,435 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/D-forma-bon.html",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia polska z piernikowym akcentem, przy murach Przedzamc"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 2493,
+   "title": "Piernicova — kierunek D: Forma + bon",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia polska z piernikowym akcentem, przy murach",
+    "H2: Karta na jesień",
+    "H3: Śledź po toruńsku",
+    "H3: Kaczka rose",
+    "H3: Tiramisu po toruńsku"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 43
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 19
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 1
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#E6D3BD",
+     "#FBF6EE",
+     "#6A5646",
+     "#ECD38A",
+     "#22140B"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 761
+     },
+     {
+      "family": "Gloock",
+      "chars": 182
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 131
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia polska z piernikowym akcentem, p",
+     "font": "Gloock",
+     "size": "30.4px",
+     "weight": "400",
+     "lineHeight": "32.832px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Karta na jesień",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "33.6px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Toruń, gotycka starówka · od 2019",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "0.34px",
+     "transform": "none",
+     "color": "#ECD38A"
+    },
+    "scale": [
+     54,
+     32,
+     30,
+     27,
+     26,
+     18,
+     17,
+     16,
+     15,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "22px",
+     3
+    ],
+    [
+     "999px",
+     2
+    ],
+    [
+     "10px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     3
+    ],
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgb(201, 162, 74) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "20/56",
+     "56/56"
+    ],
+    "containers": [
+     [
+      "1320px",
+      3
+     ],
+     [
+      "544px",
+      2
+     ],
+     [
+      "399.456px",
+      1
+     ],
+     [
+      "640px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "5+",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 36,
+     "padding": "0px",
+     "font": "IBM Plex Mono",
+     "size": "15.2px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 1,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "#bon"
+    ],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 1
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/D-forma-bon.html",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia polska z piernikowym akcentem, przy murach Przedzamc"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 1574,
+   "title": "Piernicova — kierunek D: Forma + bon",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia polska z piernikowym akcentem, przy murach",
+    "H2: Karta na jesień",
+    "H3: Śledź po toruńsku",
+    "H3: Kaczka rose",
+    "H3: Tiramisu po toruńsku"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 42
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 9
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 0
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#7BD389",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#E6D3BD",
+     "#FBF6EE",
+     "#6A5646",
+     "#ECD38A",
+     "#22140B"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 800
+     },
+     {
+      "family": "Gloock",
+      "chars": 182
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 131
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia polska z piernikowym akcentem, p",
+     "font": "Gloock",
+     "size": "48px",
+     "weight": "400",
+     "lineHeight": "51.84px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Karta na jesień",
+     "font": "Gloock",
+     "size": "54.4px",
+     "weight": "400",
+     "lineHeight": "57.12px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Toruń, gotycka starówka · od 2019",
+     "font": "Hanken Grotesk",
+     "size": "17px",
+     "weight": "600",
+     "lineHeight": "27.2px",
+     "letterSpacing": "0.34px",
+     "transform": "none",
+     "color": "#ECD38A"
+    },
+    "scale": [
+     138,
+     54,
+     48,
+     32,
+     27,
+     26,
+     18,
+     17,
+     16,
+     15,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "22px",
+     3
+    ],
+    [
+     "999px",
+     2
+    ],
+    [
+     "10px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     3
+    ],
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgb(201, 162, 74) 0px 0px 0px 1.5px inset",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "56/104",
+     "110/110"
+    ],
+    "containers": [
+     [
+      "1320px",
+      3
+     ],
+     [
+      "544px",
+      2
+     ],
+     [
+      "630.72px",
+      1
+     ],
+     [
+      "640px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "5+",
+     "bg": "#FFFFFF",
+     "color": "#22140B",
+     "radius": "6px",
+     "height": 36,
+     "padding": "0px",
+     "font": "IBM Plex Mono",
+     "size": "15.2px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #CDBFAC",
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 1,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "#bon"
+    ],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 1
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://127.0.0.1:8750/directions/D-forma-bon.html",
+ "captured": "2026-10-21"
+}

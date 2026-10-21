@@ -1,0 +1,452 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://localhost:3200/kuchnia",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia na widoku"
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 4455,
+   "title": "Kuchnia i szef Bartłomiej Witkowski · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia na widoku",
+    "H2: Bartłomiej Witkowski",
+    "H2: Od 2019 roku przy murach",
+    "H2: Surowa cegła, meble w kolorze węgla",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 20
+     },
+     {
+      "hex": "#2A190F",
+      "share": 10
+     },
+     {
+      "hex": "#F1E6D6",
+      "share": 8
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 0
+     },
+     {
+      "hex": "#C9A24A",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#22140B",
+     "#FBF6EE",
+     "#ECD38A",
+     "#6A5646",
+     "#A85F2C"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 1336
+     },
+     {
+      "family": "Gloock",
+      "chars": 143
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia na widoku",
+     "font": "Gloock",
+     "size": "36.8px",
+     "weight": "400",
+     "lineHeight": "39.008px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Bartłomiej Witkowski",
+     "font": "Gloock",
+     "size": "35.2px",
+     "weight": "400",
+     "lineHeight": "37.312px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Polskie smaki z międzynarodowym akcentem",
+     "font": "Hanken Grotesk",
+     "size": "18px",
+     "weight": "400",
+     "lineHeight": "28px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#EAD9C4"
+    },
+    "scale": [
+     96,
+     48,
+     37,
+     35,
+     32,
+     28,
+     24,
+     20,
+     18,
+     17,
+     16,
+     14
+    ]
+   },
+   "radius": [
+    [
+     "999px",
+     5
+    ],
+    [
+     "12px",
+     1
+    ],
+    [
+     "26px",
+     1
+    ],
+    [
+     "3.35544e+07px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     3
+    ],
+    [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+     1
+    ],
+    [
+     "rgba(34, 20, 11, 0.8) 0px 10px 22px -12px",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "96/96"
+    ],
+    "containers": [
+     [
+      "1320px",
+      7
+     ],
+     [
+      "672px",
+      2
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "576px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Zobacz kartę",
+     "bg": "#22140B",
+     "color": "#FBF6EE",
+     "radius": "999px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "/menu"
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 4,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 7
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": [
+   "serious color-contrast x2"
+  ]
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://localhost:3200/kuchnia",
+   "firstScreen": {
+    "headings": [
+     "Kuchnia na widoku",
+     "Bartłomiej Witkowski"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 3014,
+   "title": "Kuchnia i szef Bartłomiej Witkowski · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Kuchnia na widoku",
+    "H2: Bartłomiej Witkowski",
+    "H2: Od 2019 roku przy murach",
+    "H2: Surowa cegła, meble w kolorze węgla",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#FBF6EE",
+      "share": 20
+     },
+     {
+      "hex": "#2A190F",
+      "share": 16
+     },
+     {
+      "hex": "#F1E6D6",
+      "share": 6
+     },
+     {
+      "hex": "#22140B",
+      "share": 0
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 0
+     },
+     {
+      "hex": "#C9A24A",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#22140B",
+     "#FBF6EE",
+     "#ECD38A",
+     "#6A5646",
+     "#A85F2C"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 1355
+     },
+     {
+      "family": "Gloock",
+      "chars": 143
+     }
+    ],
+    "h1": {
+     "text": "Kuchnia na widoku",
+     "font": "Gloock",
+     "size": "67.2px",
+     "weight": "400",
+     "lineHeight": "71.232px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Bartłomiej Witkowski",
+     "font": "Gloock",
+     "size": "60.8px",
+     "weight": "400",
+     "lineHeight": "64.448px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#22140B"
+    },
+    "body": {
+     "text": "Polskie smaki z międzynarodowym akcentem",
+     "font": "Hanken Grotesk",
+     "size": "20px",
+     "weight": "400",
+     "lineHeight": "28px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#EAD9C4"
+    },
+    "scale": [
+     96,
+     67,
+     61,
+     58,
+     51,
+     48,
+     28,
+     24,
+     20,
+     18,
+     17,
+     16
+    ]
+   },
+   "radius": [
+    [
+     "8px",
+     5
+    ],
+    [
+     "999px",
+     3
+    ],
+    [
+     "26px",
+     1
+    ],
+    [
+     "3.35544e+07px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgba(34, 20, 11, 0.8) 0px 10px 22px -12px",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "112/112"
+    ],
+    "containers": [
+     [
+      "1320px",
+      7
+     ],
+     [
+      "672px",
+      2
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "576px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Zobacz kartę",
+     "bg": "#22140B",
+     "color": "#FBF6EE",
+     "radius": "999px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": "/menu"
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 3,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 7
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": [
+   "serious color-contrast x2"
+  ]
+ },
+ "url": "http://localhost:3200/kuchnia",
+ "captured": "2026-10-21"
+}

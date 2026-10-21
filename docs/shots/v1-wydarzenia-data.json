@@ -1,0 +1,430 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://localhost:3200/wydarzenia",
+   "firstScreen": {
+    "headings": [
+     "Kolacja dla grupy",
+     "Zapytanie o termin"
+    ],
+    "ctas": [
+     "Zarezerwuj",
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 3236,
+   "title": "Wydarzenia i kolacje dla grup · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Kolacja dla grupy",
+    "H2: Zapytanie o termin",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#F8F4EC",
+      "share": 16
+     },
+     {
+      "hex": "#2A190F",
+      "share": 14
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 11
+     },
+     {
+      "hex": "#22140B",
+      "share": 2
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#FBF6EE",
+     "#22140B",
+     "#ECD38A",
+     "#6A5646"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 1221
+     },
+     {
+      "family": "Gloock",
+      "chars": 121
+     }
+    ],
+    "h1": {
+     "text": "Kolacja dla grupy",
+     "font": "Gloock",
+     "size": "36.8px",
+     "weight": "400",
+     "lineHeight": "39.008px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Zapytanie o termin",
+     "font": "Gloock",
+     "size": "32px",
+     "weight": "400",
+     "lineHeight": "33.92px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "body": {
+     "text": "Urodziny, rocznica, kolacja firmowa, okr",
+     "font": "Hanken Grotesk",
+     "size": "18px",
+     "weight": "400",
+     "lineHeight": "28px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#EAD9C4"
+    },
+    "scale": [
+     37,
+     32,
+     28,
+     24,
+     20,
+     18,
+     17,
+     16,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "12px",
+     7
+    ],
+    [
+     "3.35544e+07px",
+     5
+    ],
+    [
+     "999px",
+     4
+    ],
+    [
+     "22px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     2
+    ],
+    [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+     1
+    ],
+    [
+     "rgba(34, 20, 11, 0.8) 0px 10px 22px -12px",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "80/80"
+    ],
+    "containers": [
+     [
+      "1320px",
+      5
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "672px",
+      1
+     ],
+     [
+      "384px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Wyślij zapytanie",
+     "bg": "#22140B",
+     "color": "#FBF6EE",
+     "radius": "999px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 3,
+    "bookingCtasFirstScreen": 2,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 6
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://localhost:3200/wydarzenia",
+   "firstScreen": {
+    "headings": [
+     "Kolacja dla grupy",
+     "Zapytanie o termin"
+    ],
+    "ctas": [
+     "Zarezerwuj"
+    ]
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 1993,
+   "title": "Wydarzenia i kolacje dla grup · Piernicova Toruń",
+   "lang": "pl",
+   "headings": [
+    "H1: Kolacja dla grupy",
+    "H2: Zapytanie o termin",
+    "H2: Strony",
+    "H2: Kontakt"
+   ],
+   "color": {
+    "body": "#2A190F",
+    "backgrounds": [
+     {
+      "hex": "#2A190F",
+      "share": 23
+     },
+     {
+      "hex": "#F8F4EC",
+      "share": 11
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 6
+     },
+     {
+      "hex": "#22140B",
+      "share": 1
+     },
+     {
+      "hex": "#C9A24A",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#EAD9C4",
+     "#FBF6EE",
+     "#22140B",
+     "#ECD38A",
+     "#6A5646"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 1240
+     },
+     {
+      "family": "Gloock",
+      "chars": 121
+     }
+    ],
+    "h1": {
+     "text": "Kolacja dla grupy",
+     "font": "Gloock",
+     "size": "67.2px",
+     "weight": "400",
+     "lineHeight": "71.232px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "h2": {
+     "text": "Zapytanie o termin",
+     "font": "Gloock",
+     "size": "51.2px",
+     "weight": "400",
+     "lineHeight": "54.272px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#FBF6EE"
+    },
+    "body": {
+     "text": "Urodziny, rocznica, kolacja firmowa, okr",
+     "font": "Hanken Grotesk",
+     "size": "20px",
+     "weight": "400",
+     "lineHeight": "28px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#EAD9C4"
+    },
+    "scale": [
+     67,
+     51,
+     28,
+     24,
+     20,
+     17,
+     16,
+     14,
+     13
+    ]
+   },
+   "radius": [
+    [
+     "12px",
+     6
+    ],
+    [
+     "8px",
+     5
+    ],
+    [
+     "3.35544e+07px",
+     5
+    ],
+    [
+     "999px",
+     2
+    ],
+    [
+     "22px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(120, 70, 30, 0.25) 0px -3px 0px 0px inset, rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, ",
+     1
+    ],
+    [
+     "rgba(34, 20, 11, 0.8) 0px 10px 22px -12px",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "78/0",
+     "96/96"
+    ],
+    "containers": [
+     [
+      "1320px",
+      5
+     ],
+     [
+      "896px",
+      1
+     ],
+     [
+      "672px",
+      1
+     ],
+     [
+      "384px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "Wyślij zapytanie",
+     "bg": "#22140B",
+     "color": "#FBF6EE",
+     "radius": "999px",
+     "height": 52,
+     "padding": "14.4px 25.6px",
+     "font": "Hanken Grotesk",
+     "size": "16px",
+     "weight": "700",
+     "transform": "none",
+     "border": null,
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 2,
+    "bookingCtasFirstScreen": 1,
+    "bookingTargets": [
+     "/rezerwacja"
+    ],
+    "tel": true
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 6
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": [
+     "Restaurant"
+    ]
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://localhost:3200/wydarzenia",
+ "captured": "2026-10-21"
+}

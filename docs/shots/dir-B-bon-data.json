@@ -1,0 +1,394 @@
+{
+ "375": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/B-bon.html",
+   "firstScreen": {
+    "headings": [
+     "Polska kuchnia na oczach gości, przy murach Torunia"
+    ],
+    "ctas": []
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "375x812",
+   "pageHeight": 2079,
+   "title": "Piernicova — kierunek B: Bon na kuchnię",
+   "lang": "pl",
+   "headings": [
+    "H1: Polska kuchnia na oczach gości, przy murach Toruni",
+    "H2: Z wydawki dziś",
+    "H3: Tatar z polędwicy",
+    "H3: Policzki wołowe",
+    "H3: Pierożki z gęsiną"
+   ],
+   "color": {
+    "body": "#1F1B19",
+    "backgrounds": [
+     {
+      "hex": "#F7F4EE",
+      "share": 51
+     },
+     {
+      "hex": "#2A2522",
+      "share": 16
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 1
+     },
+     {
+      "hex": "#191513",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#433A33",
+     "#DDD3CA",
+     "#5D544C",
+     "#F2ECE6",
+     "#C26A45",
+     "#191513"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 519
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 262
+     },
+     {
+      "family": "Big Shoulders Display",
+      "chars": 178
+     }
+    ],
+    "h1": {
+     "text": "Polska kuchnia na oczach gości, przy mur",
+     "font": "Big Shoulders Display",
+     "size": "48px",
+     "weight": "800",
+     "lineHeight": "43.2px",
+     "letterSpacing": "0.24px",
+     "transform": "uppercase",
+     "color": "#F2ECE6"
+    },
+    "h2": {
+     "text": "Z wydawki dziś",
+     "font": "Big Shoulders Display",
+     "size": "35.2px",
+     "weight": "800",
+     "lineHeight": "33.44px",
+     "letterSpacing": "normal",
+     "transform": "uppercase",
+     "color": "#F2ECE6"
+    },
+    "body": {
+     "text": "Toruń · gotycka starówka · otwarte dziś ",
+     "font": "IBM Plex Mono",
+     "size": "15.2px",
+     "weight": "400",
+     "lineHeight": "24.32px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#C26A45"
+    },
+    "scale": [
+     48,
+     35,
+     32,
+     30,
+     27,
+     17,
+     16,
+     15,
+     14,
+     13,
+     12
+    ]
+   },
+   "radius": [
+    [
+     "4px",
+     4
+    ],
+    [
+     "6px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.75) 0px 30px 50px -20px",
+     1
+    ],
+    [
+     "rgba(255, 255, 255, 0.4) 0px 1px 0px 0px inset, rgba(255, 122, 47, 0.6) 0px 0px 30px -6px",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "24/56",
+     "56/56"
+    ],
+    "containers": [
+     [
+      "1320px",
+      3
+     ],
+     [
+      "544px",
+      1
+     ],
+     [
+      "640px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "6+",
+     "bg": "#FFFFFF",
+     "color": "#000000",
+     "radius": "4px",
+     "height": 36,
+     "padding": "0px",
+     "font": "IBM Plex Mono",
+     "size": "15.2px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #C9C2B8",
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 0,
+    "bookingCtasFirstScreen": 0,
+    "bookingTargets": [],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 0
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "1440": {
+  "tokens": {
+   "url": "http://127.0.0.1:8750/directions/B-bon.html",
+   "firstScreen": {
+    "headings": [
+     "Polska kuchnia na oczach gości, przy murach Torunia"
+    ],
+    "ctas": []
+   },
+   "a11y": {
+    "h1": 1,
+    "imgNoAlt": "0/0",
+    "cookieBanner": false
+   },
+   "viewport": "1440x900",
+   "pageHeight": 1527,
+   "title": "Piernicova — kierunek B: Bon na kuchnię",
+   "lang": "pl",
+   "headings": [
+    "H1: Polska kuchnia na oczach gości, przy murach Toruni",
+    "H2: Z wydawki dziś",
+    "H3: Tatar z polędwicy",
+    "H3: Policzki wołowe",
+    "H3: Pierożki z gęsiną"
+   ],
+   "color": {
+    "body": "#1F1B19",
+    "backgrounds": [
+     {
+      "hex": "#2A2522",
+      "share": 25
+     },
+     {
+      "hex": "#F7F4EE",
+      "share": 21
+     },
+     {
+      "hex": "#FFFFFF",
+      "share": 0
+     },
+     {
+      "hex": "#191513",
+      "share": 0
+     }
+    ],
+    "text": [
+     "#433A33",
+     "#DDD3CA",
+     "#5D544C",
+     "#F2ECE6",
+     "#C26A45",
+     "#191513"
+    ]
+   },
+   "type": {
+    "families": [
+     {
+      "family": "Hanken Grotesk",
+      "chars": 558
+     },
+     {
+      "family": "IBM Plex Mono",
+      "chars": 262
+     },
+     {
+      "family": "Big Shoulders Display",
+      "chars": 178
+     }
+    ],
+    "h1": {
+     "text": "Polska kuchnia na oczach gości, przy mur",
+     "font": "Big Shoulders Display",
+     "size": "115.2px",
+     "weight": "800",
+     "lineHeight": "103.68px",
+     "letterSpacing": "0.576px",
+     "transform": "uppercase",
+     "color": "#F2ECE6"
+    },
+    "h2": {
+     "text": "Z wydawki dziś",
+     "font": "Big Shoulders Display",
+     "size": "64px",
+     "weight": "800",
+     "lineHeight": "60.8px",
+     "letterSpacing": "normal",
+     "transform": "uppercase",
+     "color": "#F2ECE6"
+    },
+    "body": {
+     "text": "Toruń · gotycka starówka · otwarte dziś ",
+     "font": "IBM Plex Mono",
+     "size": "15.2px",
+     "weight": "400",
+     "lineHeight": "24.32px",
+     "letterSpacing": "normal",
+     "transform": "none",
+     "color": "#C26A45"
+    },
+    "scale": [
+     115,
+     64,
+     32,
+     30,
+     27,
+     17,
+     16,
+     15,
+     14,
+     13,
+     12
+    ]
+   },
+   "radius": [
+    [
+     "4px",
+     4
+    ],
+    [
+     "6px",
+     1
+    ]
+   ],
+   "shadow": [
+    [
+     "rgba(0, 0, 0, 0.75) 0px 30px 50px -20px",
+     1
+    ],
+    [
+     "rgba(255, 255, 255, 0.4) 0px 1px 0px 0px inset, rgba(255, 122, 47, 0.6) 0px 0px 30px -6px",
+     1
+    ]
+   ],
+   "layout": {
+    "sectionPadding": [
+     "0/0",
+     "56/96",
+     "104/104"
+    ],
+    "containers": [
+     [
+      "1320px",
+      3
+     ],
+     [
+      "544px",
+      1
+     ],
+     [
+      "640px",
+      1
+     ]
+    ]
+   },
+   "buttons": [
+    {
+     "text": "6+",
+     "bg": "#FFFFFF",
+     "color": "#000000",
+     "radius": "4px",
+     "height": 36,
+     "padding": "0px",
+     "font": "IBM Plex Mono",
+     "size": "15.2px",
+     "weight": "600",
+     "transform": "none",
+     "border": "1px #C9C2B8",
+     "href": null
+    }
+   ],
+   "conversion": {
+    "bookingCtas": 0,
+    "bookingCtasFirstScreen": 0,
+    "bookingTargets": [],
+    "tel": false
+   },
+   "media": {
+    "images": 0,
+    "firstScreenImages": 0,
+    "video": 0,
+    "svgIcons": 0
+   },
+   "tech": {
+    "generator": null,
+    "next": false,
+    "wix": false,
+    "webflow": false,
+    "wordpress": false,
+    "booksy": false,
+    "jsonLd": []
+   }
+  },
+  "horizontalOverflow": false,
+  "axe": []
+ },
+ "url": "http://127.0.0.1:8750/directions/B-bon.html",
+ "captured": "2026-10-21"
+}
