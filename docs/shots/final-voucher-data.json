@@ -17,7 +17,7 @@
     "cookieBanner": false
    },
    "viewport": "375x812",
-   "pageHeight": 2956,
+   "pageHeight": 2950,
    "title": "Voucher prezentowy · Piernicova Toruń",
    "lang": "pl",
    "headings": [
@@ -138,7 +138,7 @@
      1
     ],
     [
-     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     "rgba(0, 0, 0, 0.16) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.1) 0px 0px 0px 9px inset,",
      1
     ]
    ],
@@ -410,7 +410,7 @@
      1
     ],
     [
-     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     "rgba(0, 0, 0, 0.16) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.1) 0px 0px 0px 9px inset,",
      1
     ],
     [

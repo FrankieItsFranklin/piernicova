@@ -42,3 +42,43 @@ Photorealistic editorial photograph for a fine-casual Polish restaurant in the G
 [стиль] Overhead-angled plate: sliced pink duck breast, a small potato soufflé, glazed baby carrots and mini leeks, orange pumpkin purée, glossy dark pear-gingerbread-port sauce, on a dark ceramic plate on a walnut table. 4:3.
 ```
 Реальная подача в ресторане может отличаться — блюдо на сайте подписано как poglądowe; лучше заменить фото из ресторана.
+
+---
+
+# Фото блюд (7 слотов, `dish-*.webp`, 4:5 или 4:3, ≥ 2000 px)
+
+Стоят внутри карточек на главной (карта + секция «Piernik nie tylko na deser») и миниатюрами в /menu. Каждый файл → `dishPhotos` в `src/content/photos.ts`, `ready: true`.
+
+## Общий стиль блюд
+```
+Photorealistic fine-dining food photograph for a Polish restaurant in Toruń. One plated dish on a dark matte ceramic plate, on a dark walnut table, warm low side light from a window, deep brown and gold tones, soft shadows, shallow depth of field, a little negative space around the plate. Editorial, natural, not glossy advertising. No text, no logos, no hands, no cutlery clutter. Vertical 4:5.
+```
+
+1. `dish-sledz.webp` — Śledź po toruńsku:
+```
+[styl] Pickled herring fillets with warm spices, a quenelle of potato and sour cream mousse, a dot of dark gingerbread mustard, small charred fire-roasted baby potatoes, cubes of marinated apple, a few nasturtium leaves.
+```
+2. `dish-kaczka.webp` — Kaczka rose:
+```
+[styl] Sliced pink duck breast fanned on the plate, a small golden potato soufflé, glazed baby carrots and mini leeks, a swoosh of bright orange pumpkin and blood-orange purée, glossy dark pear-gingerbread-port sauce.
+```
+3. `dish-tiramisu.webp` — Tiramisu po toruńsku:
+```
+[styl] A neat square of tiramisu with velvety cream on a dark plate, dusted with cocoa, with two small Toruń gingerbread cookies "katarzynki" (six joined round lobes, glossy brown glaze) beside it.
+```
+4. `dish-pierozki.webp` — Pierożki z gęsiną:
+```
+[styl] Five handmade pierogi filled with roasted goose and mushrooms, smoked pumpkin purée, pickled pumpkin cubes, toasted hazelnuts, shaved Pecorino, a dark smoked plum sauce.
+```
+5. `dish-tatar.webp` — Tatar z polędwicy:
+```
+[styl] Beef tartare shaped in a round, topped with pickled pearl onions, chopped shallot, cucumber and porcini, a dot of lovage mayonnaise, a little truffle butter and a slice of fresh bread on the side.
+```
+6. `dish-grzybowa.webp` — Jesienna grzybowa:
+```
+[styl] A shallow bowl of creamy wild mushroom soup with sliced porcini and bay boletes, a small mound of łazanki pasta with cabbage, crisp sauerkraut chips on top.
+```
+7. `dish-policzki.webp` — Policzki wołowe:
+```
+[styl] Braised beef cheeks glossy with dark mushroom demi-glace, a mound of horseradish mashed potato, red-wine-vinegar beetroot, a crisp potato nest on top.
+```

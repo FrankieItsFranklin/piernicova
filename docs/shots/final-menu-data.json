@@ -15,11 +15,11 @@
    },
    "a11y": {
     "h1": 1,
-    "imgNoAlt": "0/0",
+    "imgNoAlt": "0/7",
     "cookieBanner": false
    },
    "viewport": "375x812",
-   "pageHeight": 7318,
+   "pageHeight": 7339,
    "title": "Karta — menu jesienne z cenami · Piernicova Toruń",
    "lang": "pl",
    "headings": [
@@ -93,7 +93,7 @@
     "families": [
      {
       "family": "Hanken Grotesk",
-      "chars": 4199
+      "chars": 4225
      },
      {
       "family": "Gloock",
@@ -295,7 +295,7 @@
     "tel": true
    },
    "media": {
-    "images": 0,
+    "images": 7,
     "firstScreenImages": 0,
     "video": 0,
     "svgIcons": 5
@@ -330,11 +330,11 @@
    },
    "a11y": {
     "h1": 1,
-    "imgNoAlt": "0/0",
+    "imgNoAlt": "0/7",
     "cookieBanner": false
    },
    "viewport": "1440x900",
-   "pageHeight": 5210,
+   "pageHeight": 5235,
    "title": "Karta — menu jesienne z cenami · Piernicova Toruń",
    "lang": "pl",
    "headings": [
@@ -364,7 +364,7 @@
     "backgrounds": [
      {
       "hex": "#FBF6EE",
-      "share": 70
+      "share": 71
      },
      {
       "hex": "#F1E6D6",
@@ -408,7 +408,7 @@
     "families": [
      {
       "family": "Hanken Grotesk",
-      "chars": 4218
+      "chars": 4244
      },
      {
       "family": "Gloock",
@@ -464,6 +464,10 @@
     [
      "3.35544e+07px",
      44
+    ],
+    [
+     "12px",
+     7
     ],
     [
      "8px",
@@ -606,8 +610,8 @@
     "tel": true
    },
    "media": {
-    "images": 0,
-    "firstScreenImages": 0,
+    "images": 7,
+    "firstScreenImages": 1,
     "video": 0,
     "svgIcons": 5
    },

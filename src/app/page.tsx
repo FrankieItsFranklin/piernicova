@@ -7,6 +7,7 @@ import { IcingRule } from "@/components/IcingRule";
 import { Reveal } from "@/components/Reveal";
 import { Photo } from "@/components/Photo";
 import { Katarzynka } from "@/components/Katarzynka";
+import { DishPhoto } from "@/components/DishPhoto";
 import { allDishes, featured } from "@/content/menu";
 import { photos } from "@/content/photos";
 import { site, seating } from "@/content/site";
@@ -54,33 +55,42 @@ export default function Home() {
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             {featuredDishes.map((d, i) => (
-              <Reveal key={d.name} delay={i * 0.08}><MoldCard dish={d} course={d.course} /></Reveal>
+              <Reveal key={d.name} delay={i * 0.08}><MoldCard dish={d} course={d.course} photo /></Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 3. Piernik w karcie */}
+      {/* 3. Piernik w karcie — trzy dania, w każdym wyróżniony piernikowy składnik */}
       <section aria-labelledby="piernik-t" className="wood relative overflow-hidden py-24 md:py-28">
-        <div className="container-site grid items-center gap-12 lg:grid-cols-[0.8fr_1.2fr]">
-          <Katarzynka className="mx-auto w-full max-w-[340px] drop-shadow-[0_30px_40px_rgb(0_0_0/0.55)]" title="Toruńska katarzynka z lukrem" />
-          <div>
-            <h2 id="piernik-t" className="text-[clamp(2.1rem,4.2vw,3.6rem)]">Piernik nie tylko na deser</h2>
-            <IcingRule className="mt-4" />
-            <p className="mt-5 max-w-xl text-sand">Toruński piernik pojawia się w karcie w {piernikDishes.length} daniach — od przystawki po deser.</p>
-            <ul className="mt-8 divide-y divide-gold/20 border-y border-gold/20">
-              {piernikDishes.map((d) => (
-                <li key={d.name} className="flex items-baseline justify-between gap-6 py-4">
-                  <span>
-                    <span className="block font-serif text-2xl">{d.name}</span>
-                    <span className="text-[15px] text-sand">{d.parts.find((p) => /piernik|katarzynk/.test(p))}</span>
-                  </span>
-                  <span className="font-extrabold text-gold-hi tabular-nums">{d.price} zł</span>
-                </li>
-              ))}
-            </ul>
-            <Link href="/menu?skladnik=piernik" className="link-u mt-6 inline-block font-semibold text-gold-hi">Pokaż w karcie</Link>
+        <div className="container-site">
+          <div className="grid items-end gap-8 md:grid-cols-[auto_1fr_auto]">
+            <Katarzynka className="w-24 md:w-28" title="Toruńska katarzynka" />
+            <div>
+              <h2 id="piernik-t" className="text-[clamp(2.1rem,4.2vw,3.6rem)]">Piernik nie tylko na deser</h2>
+              <IcingRule className="mt-4" />
+              <p className="mt-4 max-w-xl text-sand">Toruński piernik pojawia się w karcie w {piernikDishes.length} daniach — od przystawki po deser.</p>
+            </div>
+            <Link href="/menu?skladnik=piernik" className="btn btn-gold self-start md:self-end">Pokaż w karcie</Link>
           </div>
+          <ol className="mt-12 grid gap-5 md:grid-cols-3">
+            {piernikDishes.map((d, i) => {
+              const piernikPart = d.parts.find((p) => /piernik|katarzynk/.test(p)) ?? "";
+              return (
+                <Reveal as="li" key={d.name} delay={i * 0.08} className="mold group flex flex-col overflow-hidden rounded-[24px]">
+                  <DishPhoto name={d.name} className="aspect-[4/5] w-full" />
+                  <div className="flex flex-1 flex-col p-6">
+                    <p className="text-sm font-semibold text-gold-hi">{d.course}</p>
+                    <h3 className="mt-1.5 text-[1.7rem]">{d.name}</h3>
+                    <p className="mt-3 inline-flex items-center gap-2 self-start rounded-full bg-gold/15 px-3 py-1 text-[15px] font-semibold text-gold-hi ring-1 ring-gold/40">
+                      <Katarzynka className="w-5" gloss={false} />{piernikPart}
+                    </p>
+                    <p className="mt-auto pt-5 text-lg font-extrabold text-gold-hi tabular-nums">{d.price} zł</p>
+                  </div>
+                </Reveal>
+              );
+            })}
+          </ol>
         </div>
       </section>
 

@@ -95,7 +95,7 @@ export function Header() {
                   <motion.li key={n.href} initial={reduce ? false : { opacity: 0, x: -14 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.04 * i, duration: 0.35 }}>
                     <Link href={n.href} onClick={() => setOpen(false)} aria-current={pathname === n.href ? "page" : undefined} className="flex items-center justify-between border-b border-gold/20 py-4 font-serif text-3xl text-icing">
                       {n.label}
-                      {pathname === n.href && <Katarzynka className="w-7" icing={false} />}
+                      {pathname === n.href && <Katarzynka className="w-8" gloss={false} />}
                     </Link>
                   </motion.li>
                 ))}

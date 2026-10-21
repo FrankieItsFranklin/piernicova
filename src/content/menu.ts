@@ -75,6 +75,6 @@ export const menu: Course[] = [
   },
 ];
 
-export const menuSource = "Karta jesienna, stan na 21.10.2026. Alergeny — zapytaj obsługę.";
-export const featured = ["Śledź po toruńsku", "Kaczka rose", "Tiramisu po toruńsku"];
+export const menuSource = "Karta jesienna, stan na 21.10.2026. Alergeny — zapytaj obsługę. Zdjęcia dań są poglądowe.";
+export const featured = ["Tatar z polędwicy wołowej", "Pierożki z gęsiną", "Policzki wołowe"];
 export const allDishes = menu.flatMap((c) => c.dishes.map((d) => ({ ...d, course: c.title })));

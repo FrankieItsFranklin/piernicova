@@ -88,11 +88,17 @@ export function BookingTicket({ id = "bon", headingLevel = "h2" }: { id?: string
   const nameReg = register("name");
 
   return (
-    <div className="relative pt-10" id={id}>
-      <div className="brass absolute -left-3 -right-3 top-1.5 h-[18px] rounded-full sm:-left-6 sm:-right-6" aria-hidden="true" />
-      <Katarzynka className="absolute left-1/2 top-[-6px] z-10 w-[84px] -translate-x-1/2 drop-shadow-[0_6px_6px_rgb(0_0_0/0.45)]" />
+    <div className="relative pt-[30px]" id={id}>
+      {/* mosiężna szyna nad bonem */}
+      <div className="brass absolute -left-3 -right-3 top-[14px] z-20 h-[18px] rounded-full sm:-left-6 sm:-right-6" aria-hidden="true" />
+      {/* papier zawinięty przez szynę (widoczny nad nią) */}
+      <div className="absolute left-[18%] right-[18%] top-[6px] z-10 h-[24px] rounded-t-[6px] bg-[linear-gradient(180deg,#e9e1d2,#f8f4ec)] shadow-[0_-1px_0_rgb(0_0_0/0.15)_inset]" aria-hidden="true" />
+      {/* katarzynka spina papier z szyną */}
+      <Katarzynka className="absolute left-1/2 top-[-14px] z-30 w-[96px] -translate-x-1/2" />
 
-      <div className="ticket ticket-anim relative px-6 pb-9 pt-9 font-mono shadow-[0_34px_50px_-22px_rgb(0_0_0/0.8)] sm:px-7">
+      <div className="ticket ticket-anim relative px-6 pb-9 pt-12 font-mono shadow-[0_34px_50px_-22px_rgb(0_0_0/0.8)] sm:px-7">
+        {/* cień szyny na papierze */}
+        <div className="pointer-events-none absolute inset-x-0 top-0 h-5 bg-[linear-gradient(180deg,rgb(60_35_15/0.28),transparent)]" aria-hidden="true" />
         <div className="flex justify-between border-b-[1.5px] border-dashed border-[#c8bba8] pb-2.5 text-[13px] text-muted">
           <span>BON NA SALĘ</span>
           <span>{step === 1 ? "1/2 · KIEDY" : done ? "PRZYJĘTE" : "2/2 · DANE"}</span>

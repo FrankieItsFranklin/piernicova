@@ -18,7 +18,7 @@
     "cookieBanner": false
    },
    "viewport": "375x812",
-   "pageHeight": 3197,
+   "pageHeight": 3191,
    "title": "Kontakt i dojazd — ul. Przedzamcze 6B, Toruń · Piernicova Toruń",
    "lang": "pl",
    "headings": [
@@ -134,7 +134,7 @@
      1
     ],
     [
-     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     "rgba(0, 0, 0, 0.16) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.1) 0px 0px 0px 9px inset,",
      1
     ]
    ],
@@ -328,7 +328,7 @@
      2
     ],
     [
-     "rgba(0, 0, 0, 0.18) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.12) 0px 0px 0px 9px inset",
+     "rgba(0, 0, 0, 0.16) 0px 0px 0px 8px inset, rgba(255, 214, 170, 0.1) 0px 0px 0px 9px inset,",
      1
     ]
    ],

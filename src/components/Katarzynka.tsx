@@ -1,23 +1,55 @@
-// Toruńska katarzynka z lukrem — znak marki w kodzie (bez zdjęcia). Kształt: sześć połączonych łuków.
-export function Katarzynka({ className = "", icing = true, title }: { className?: string; icing?: boolean; title?: string }) {
-  const id = title ? "kat-title" : undefined;
+import { useId } from "react";
+
+// Toruńska katarzynka: płaski piernik z sześciu wyraźnych, połączonych kółek w dwóch rzędach,
+// lekko wygięty w łuk (środkowa para niżej). Głębokie wcięcia na brzegu, krótkie żłobienia
+// w miejscu wcięć i delikatny połysk glazury na każdym kółku.
+const R = 22;
+const lobes = [
+  { x: 34, y: 34 }, { x: 72, y: 39 }, { x: 110, y: 34 },
+  { x: 34, y: 66 }, { x: 72, y: 71 }, { x: 110, y: 66 },
+];
+// wcięcia: między sąsiednimi kółkami w rzędzie (góra/dół) i między rzędami (lewo/prawo)
+const notches = [
+  { x1: 53, y1: 18, x2: 53, y2: 28 }, { x1: 91, y1: 18, x2: 91, y2: 28 },
+  { x1: 53, y1: 82, x2: 53, y2: 92 }, { x1: 91, y1: 82, x2: 91, y2: 92 },
+  { x1: 12, y1: 50, x2: 22, y2: 50 }, { x1: 122, y1: 50, x2: 132, y2: 50 },
+];
+
+export function Katarzynka({ className = "", title, gloss = true }: { className?: string; title?: string; gloss?: boolean }) {
+  const uid = useId().replace(/:/g, "");
+  const dough = `kd-${uid}`, shadow = `ksh-${uid}`, tid = `kt-${uid}`;
   return (
-    <svg viewBox="0 0 120 100" className={className} role={title ? "img" : undefined} aria-hidden={title ? undefined : true} aria-labelledby={id}>
-      {title && <title id={id}>{title}</title>}
+    <svg viewBox="0 0 144 106" className={className} role={title ? "img" : undefined} aria-hidden={title ? undefined : true} aria-labelledby={title ? tid : undefined}>
+      {title && <title id={tid}>{title}</title>}
       <defs>
-        <radialGradient id="kat-dough" cx=".38" cy=".3" r=".85">
-          <stop offset="0" stopColor="#d9965a" />
-          <stop offset=".55" stopColor="#a85f2c" />
-          <stop offset="1" stopColor="#5e3013" />
+        <radialGradient id={dough} gradientUnits="userSpaceOnUse" cx="72" cy="36" r="84">
+          <stop offset="0" stopColor="#b5703a" />
+          <stop offset=".6" stopColor="#8c4a1d" />
+          <stop offset="1" stopColor="#5e2d0e" />
         </radialGradient>
+        <filter id={shadow} x="-15%" y="-15%" width="130%" height="140%">
+          <feDropShadow dx="0" dy="3" stdDeviation="2.4" floodColor="#1a0d05" floodOpacity=".5" />
+        </filter>
       </defs>
-      <path d="M60 14 C70 4 86 6 88 20 C100 18 112 30 104 42 C116 49 113 66 99 68 C101 82 86 89 76 80 C70 92 50 92 44 80 C34 89 19 82 21 68 C7 66 4 49 16 42 C8 30 20 18 32 20 C34 6 50 4 60 14 Z" fill="url(#kat-dough)" />
-      {icing && (
-        <>
-          <path className="kat-icing" d="M60 20 C68 12 81 14 83 25 C93 24 102 33 96 42 C105 48 103 62 92 64 C94 75 82 81 74 74 C69 84 51 84 46 74 C38 81 26 75 28 64 C17 62 15 48 24 42 C18 33 27 24 37 25 C39 14 52 12 60 20 Z" fill="none" stroke="#fbf6ee" strokeWidth="2.5" strokeLinecap="round" />
-          <path d="M44 44 q8 -10 16 0 q8 -10 16 0 M42 56 q9 8 18 0 q9 8 18 0" fill="none" stroke="#fbf6ee" strokeWidth="2" strokeLinecap="round" />
-          <path d="M56 50 l4 -5 l4 5 l-4 5 z" fill="#c9a24a" />
-        </>
+
+      <g filter={`url(#${shadow})`} fill={`url(#${dough})`}>
+        {lobes.map((c, i) => <circle key={i} cx={c.x} cy={c.y} r={R} />)}
+        {/* środek między kółkami */}
+        <path d="M34 34 L72 39 L110 34 L110 66 L72 71 L34 66 Z" />
+      </g>
+
+      {/* krótkie żłobienia w miejscu wcięć */}
+      <g stroke="#3f1c07" strokeOpacity=".5" strokeWidth="1.8" strokeLinecap="round">
+        {notches.map((n, i) => <line key={i} {...n} />)}
+      </g>
+
+      {/* połysk glazury: jasny łuk w górnej części każdego kółka */}
+      {gloss && (
+        <g fill="none" stroke="#ffe6c2" strokeOpacity=".45" strokeWidth="2.6" strokeLinecap="round">
+          {lobes.map((c, i) => (
+            <path key={i} d={`M${c.x - 13} ${c.y - 8} Q${c.x - 4} ${c.y - 17} ${c.x + 8} ${c.y - 13}`} />
+          ))}
+        </g>
       )}
     </svg>
   );
