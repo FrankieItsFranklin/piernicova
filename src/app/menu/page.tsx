@@ -16,7 +16,6 @@ export default function MenuPage() {
     <>
       <PageHero
         crumb="Karta"
-        carved="Karta"
         title="Karta na jesień"
         lead="Kuchnia polska z autorskim akcentem. Wybierz składnik sezonu, a podświetlimy dania, w których go znajdziesz."
       />

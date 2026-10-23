@@ -11,10 +11,9 @@ export const metadata: Metadata = {
 export default function VoucherPage() {
   return (
     <>
-      <PageHero crumb="Voucher" carved="Prezent" title="Voucher na kolację" lead="Wpisz imię i kwotę, a zobaczysz voucher od razu. Płatność i odbiór ustalimy mailowo." />
-      <section aria-label="Zamówienie vouchera" className="wood pb-24 pt-4">
-        <div className="container-site"><VoucherDesigner /></div>
-      </section>
+      <PageHero crumb="Voucher" title="Voucher na kolację" lead="Wpisz imię i kwotę, a zobaczysz voucher od razu. Płatność i odbiór ustalimy mailowo." compact>
+        <div className="mt-12"><VoucherDesigner /></div>
+      </PageHero>
     </>
   );
 }

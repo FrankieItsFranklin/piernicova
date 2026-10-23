@@ -7,7 +7,6 @@ import { motion } from "motion/react";
 import { Check, Loader2 } from "lucide-react";
 import { voucherSchema, type VoucherInput } from "@/lib/schemas";
 import { sendRequest } from "@/app/actions/requests";
-import { Katarzynka } from "@/components/Katarzynka";
 import { useReducedMotionSafe } from "@/lib/use-reduced-motion";
 import { site } from "@/content/site";
 import { track } from "@/lib/track";
@@ -40,7 +39,6 @@ export function VoucherDesigner() {
       {/* podgląd */}
       <div className="lg:sticky lg:top-28">
         <div className="mold relative aspect-[1.6] overflow-hidden rounded-[28px] p-7 text-icing sm:p-9" aria-label="Podgląd vouchera" role="img">
-          <Katarzynka className="absolute -right-6 -top-6 w-40 opacity-90 sm:w-48" />
           <p className="font-serif text-2xl">Piernicova</p>
           <p className="text-[13px] font-semibold text-gold-hi">Voucher · {site.address.street}, Toruń</p>
           <div className="absolute inset-x-7 bottom-7 sm:inset-x-9 sm:bottom-9">

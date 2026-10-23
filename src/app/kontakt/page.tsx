@@ -23,7 +23,6 @@ export default function KontaktPage() {
         crumb="Kontakt"
         title="Przedzamcze 6B, Toruń"
         lead="Na gotyckiej starówce, brukowanymi uliczkami wzdłuż dawnych murów obronnych."
-        carved="Toruń"
         {...(photos.terrace.ready ? { photo: <Photo slot={photos.terrace} className="size-full" priority caption={false} />, photoNote: "Zdjęcie poglądowe" } : {})}
       >
         <p className="mt-6 text-sand"><OpenNow /></p>

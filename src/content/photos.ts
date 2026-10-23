@@ -8,6 +8,8 @@ export const photos = {
   interior: { file: "interior.webp", alt: "Sala z surową cegłą i ciemnymi meblami, obok otwarta kuchnia", ready: true, generated: true },
   window: { file: "window.webp", alt: "Nakryte stoły przy otwartej kuchni, za oknem dachy starówki", ready: true, generated: true },
   terrace: { file: "terrace.webp", alt: "Taras z widokiem na gotyckie mury obronne Torunia", ready: false, generated: true },
+  // Prawdziwy portret szefa z sesji w restauracji — nie generujemy. Do tego czasu w sekcji szefa stoi jego danie.
+  chef: { file: "chef.webp", alt: "Szef kuchni Bartłomiej Witkowski w otwartej kuchni Piernicovej", ready: false, generated: false },
   duck: { file: "duck.webp", alt: "Kaczka rose z puree z dyni i sosem z gruszki, piernika i porto", ready: false, generated: true },
 } satisfies Record<string, PhotoSlot>;
 

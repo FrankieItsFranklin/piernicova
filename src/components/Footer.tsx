@@ -2,7 +2,6 @@ import Link from "next/link";
 import { hoursTable, nav, site } from "@/content/site";
 import { Logo } from "@/components/Header";
 import { TrackedLink } from "@/components/TrackedLink";
-import { Katarzynka } from "@/components/Katarzynka";
 
 export function Footer() {
   return (
@@ -12,7 +11,6 @@ export function Footer() {
           <Logo />
           <p className="mt-6 max-w-sm text-sand">Restauracja w gotyckiej starówce Torunia, przy murach Przedzamcza. Od {site.founded} roku.</p>
           <p className="mt-6 font-serif text-2xl text-gold-hi">{site.slogan}</p>
-          <Katarzynka className="mt-6 w-16" />
         </div>
         <nav aria-label="Stopka">
           <h2 className="font-sans text-sm font-semibold text-gold-hi">Strony</h2>

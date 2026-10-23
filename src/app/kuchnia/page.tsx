@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { Photo } from "@/components/Photo";
 import { Reveal } from "@/components/Reveal";
-import { IcingRule } from "@/components/IcingRule";
+import { DishPhoto } from "@/components/DishPhoto";
 import { photos } from "@/content/photos";
 import { site } from "@/content/site";
 
@@ -32,14 +32,18 @@ export default function KuchniaPage() {
 
       <section aria-labelledby="szef-t" className="on-light bg-icing py-24 text-ink md:py-28">
         <div className="container-site grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
-          <div className="relative grid aspect-[4/5] place-items-center overflow-hidden rounded-[26px] bg-cream-2" role="img" aria-label={`Szef kuchni ${site.chef} — zdjęcie po sesji`}>
-            <span className="font-serif text-8xl text-muted" aria-hidden="true">BW</span>
-            <span className="absolute bottom-4 left-4 rounded-full bg-paper px-3 py-1 text-[13px] text-muted">Portret szefa — po sesji w restauracji</span>
-          </div>
+          {/* Do czasu sesji: zamiast pustej ramki z inicjałami — danie, z którego szef jest znany. */}
+          {photos.chef.ready ? (
+            <Photo slot={photos.chef} className="aspect-[4/5] rounded-[26px]" caption={false} />
+          ) : (
+            <figure>
+              <DishPhoto name="Śledź po toruńsku" className="aspect-[4/5] rounded-[26px]" sizes="(min-width:1024px) 40vw, 100vw" />
+              <figcaption className="mt-3 text-[15px] text-muted">Śledź po toruńsku z musztardą piernikową — danie z karty szefa.</figcaption>
+            </figure>
+          )}
           <div>
             <p className="font-semibold text-dough-ink">Szef kuchni</p>
             <h2 id="szef-t" className="mt-2 text-[clamp(2.2rem,4.4vw,3.8rem)]">{site.chef}</h2>
-            <IcingRule className="mt-4" color="#a85f2c" />
             <ul className="mt-8 space-y-4 text-lg">
               <li className="flex gap-3"><span className="mt-3 size-2 shrink-0 rounded-full bg-gold" aria-hidden="true" />Doświadczenie zdobywał w restauracjach i na szkoleniach w Polsce i za granicą.</li>
               <li className="flex gap-3"><span className="mt-3 size-2 shrink-0 rounded-full bg-gold" aria-hidden="true" />Laureat konkursów kulinarnych, zdobywca czapek w przewodniku Gault&amp;Millau Polska.</li>
@@ -54,7 +58,6 @@ export default function KuchniaPage() {
       <section aria-labelledby="os-t" className="wood py-24 md:py-28">
         <div className="container-site">
           <h2 id="os-t" className="text-[clamp(2rem,4vw,3.2rem)]">Od 2019 roku przy murach</h2>
-          <IcingRule className="mt-4" />
           <ol className="mt-12 grid gap-5 md:grid-cols-3">
             {timeline.map((t, i) => (
               <Reveal as="li" key={i} delay={i * 0.08} className="mold rounded-[22px] p-7">

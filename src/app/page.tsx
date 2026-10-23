@@ -7,9 +7,10 @@ import { IcingRule } from "@/components/IcingRule";
 import { Reveal } from "@/components/Reveal";
 import { Photo } from "@/components/Photo";
 import { Katarzynka } from "@/components/Katarzynka";
+import { Wordmark } from "@/components/Wordmark";
 import { allDishes, featured } from "@/content/menu";
 import { photos } from "@/content/photos";
-import { site, seating } from "@/content/site";
+import { site } from "@/content/site";
 
 const piernikDishes = allDishes.filter((d) => d.tags.includes("piernik"));
 const featuredDishes = featured.map((n) => allDishes.find((d) => d.name === n)!);
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(55%_60%_at_80%_55%,rgb(236_211_138/0.1),transparent_70%)]" aria-hidden="true" />
         <div className="container-site relative grid items-start gap-12 pb-20 pt-10 md:pt-14 lg:grid-cols-[1.1fr_minmax(330px,440px)] lg:gap-20 lg:pb-28">
           <div>
-            <p className="carved select-none text-[clamp(3.4rem,9.6vw,8.8rem)] leading-[0.9]" aria-hidden="true">Piernicova</p>
+            <Wordmark className="block w-[clamp(13.9rem,38.4vw,35.2rem)]" />
             <h1 id="h1" className="mt-5 max-w-[20ch] text-[clamp(1.9rem,3.4vw,3rem)]">Kuchnia polska z piernikowym akcentem, przy murach Przedzamcza</h1>
             <p className="mt-5 max-w-md text-sand">Na piętrze siadasz przy otwartej kuchni szefa {site.chefGen}.</p>
             <Link href="/menu" className="btn btn-gold mt-8">Zobacz kartę</Link>
@@ -54,8 +55,7 @@ export default function Home() {
       {/* 3. Piernik w karcie — trzy dania, w każdym wyróżniony piernikowy składnik */}
       <section aria-labelledby="piernik-t" className="wood relative overflow-hidden py-24 md:py-28">
         <div className="container-site">
-          <div className="grid items-end gap-8 md:grid-cols-[auto_1fr_auto]">
-            <Katarzynka className="w-24 md:w-28" title="Toruńska katarzynka" />
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div>
               <h2 id="piernik-t" className="text-[clamp(2.1rem,4.2vw,3.6rem)]">Piernik nie tylko na deser</h2>
               <IcingRule className="mt-4" />
@@ -110,18 +110,19 @@ export default function Home() {
           <IcingRule className="mt-4" color="#a85f2c" />
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             {[
-              { t: "Przy otwartej kuchni", d: "Piętro, kameralnie, stoliki zwrócone w stronę kuchni.", id: "kuchnia" },
-              { t: "Parter", d: "Jaśniej i przestronniej. Surowa cegła, meble w kolorze węgla drzewnego.", id: "parter" },
-              { t: "Taras", d: "Z widokiem na dawne mury obronne starówki.", id: "taras" },
+              { t: "Przy otwartej kuchni", d: "Piętro, kameralnie, stoliki zwrócone w stronę kuchni.", slot: photos.window },
+              { t: "Parter", d: "Jaśniej i przestronniej. Surowa cegła, meble w kolorze węgla drzewnego.", slot: photos.interior },
+              { t: "Taras", d: "Z widokiem na dawne mury obronne starówki.", slot: photos.terrace },
             ].map((s, i) => (
-              <Reveal key={s.id} delay={i * 0.08} className="rounded-[22px] border border-line bg-paper p-7">
-                <p className="font-mono text-[13px] text-muted">{seating.find((x) => x.id === s.id)?.hint}</p>
-                <h3 className="mt-2 text-[1.7rem]">{s.t}</h3>
-                <p className="mt-2 text-muted">{s.d}</p>
+              <Reveal key={s.t} delay={i * 0.08} className="relative isolate flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-[22px] bg-walnut p-7 text-icing md:aspect-[3/4]">
+                <div className="absolute inset-0 -z-10"><Photo slot={s.slot} className="size-full" sizes="(min-width:768px) 33vw, 100vw" caption={false} /></div>
+                <div className="absolute inset-0 -z-10 bg-[linear-gradient(0deg,rgb(42_25_15/0.92)_0%,rgb(42_25_15/0.5)_45%,rgb(42_25_15/0.05)_75%)]" aria-hidden="true" />
+                <h3 className="text-[1.9rem]">{s.t}</h3>
+                <p className="mt-2 text-sand">{s.d}</p>
               </Reveal>
             ))}
           </div>
-          <p className="mt-6 text-muted">Miejsce wybierzesz w bonie rezerwacji — postaramy się je zapewnić.</p>
+          <p className="mt-6 text-muted">Miejsce wybierzesz w bonie rezerwacji — postaramy się je zapewnić. Zdjęcia sal są poglądowe.</p>
         </div>
       </section>
 
@@ -134,7 +135,6 @@ export default function Home() {
             <span className="mt-6 inline-flex items-center gap-2 font-semibold text-gold-hi">Zapytaj o termin <ArrowUpRight className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" /></span>
           </Link>
           <Link href="/voucher" className="mold group relative block overflow-hidden rounded-[26px] p-8 transition-transform hover:-translate-y-1 sm:p-10">
-            <Katarzynka className="absolute -right-8 -top-8 w-44 opacity-80" />
             <h2 className="text-[clamp(1.9rem,3.4vw,2.8rem)]">Voucher na prezent</h2>
             <p className="mt-3 max-w-md text-sand">Wpisz imię obdarowanej osoby i kwotę — zobaczysz voucher od razu.</p>
             <span className="mt-6 inline-flex items-center gap-2 font-semibold text-gold-hi">Zaprojektuj voucher <ArrowUpRight className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true" /></span>

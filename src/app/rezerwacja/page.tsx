@@ -15,11 +15,10 @@ export const metadata: Metadata = {
 export default function RezerwacjaPage() {
   return (
     <>
-      <PageHero crumb="Rezerwacja" carved="Stolik" title="Rezerwacja stolika" lead="Wypełnij bon — oddzwonimy, żeby potwierdzić stolik." />
-      <section aria-label="Formularz rezerwacji" className="wood wood-glow pb-24">
-        <div className="container-site grid items-start gap-14 lg:grid-cols-[minmax(330px,460px)_1fr] lg:gap-20">
+      <PageHero crumb="Rezerwacja" title="Rezerwacja stolika" lead="Wypełnij bon — oddzwonimy, żeby potwierdzić stolik." compact>
+        <div className="mt-14 grid items-start gap-14 lg:grid-cols-[minmax(330px,460px)_1fr] lg:gap-20">
           <BookingTicket id="bon-strona" />
-          <div className="pt-10">
+          <div className="lg:pt-10">
             <h2 className="text-[clamp(1.8rem,3vw,2.4rem)]">Dobrze wiedzieć</h2>
             <dl className="mt-6 divide-y divide-gold/20 border-y border-gold/20">
               <div className="py-4"><dt className="font-semibold text-gold-hi">Teraz</dt><dd className="mt-1 text-sand"><OpenNow /></dd></div>
@@ -33,7 +32,7 @@ export default function RezerwacjaPage() {
             <TrackedLink href={site.phone.href} event="click_phone" place="rezerwacja" className="btn btn-icing mt-8">Zadzwoń: {site.phone.display}</TrackedLink>
           </div>
         </div>
-      </section>
+      </PageHero>
     </>
   );
 }

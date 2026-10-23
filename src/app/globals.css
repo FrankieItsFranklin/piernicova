@@ -42,20 +42,28 @@
 @layer components {
   .container-site { width: 100%; max-width: 1320px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 56px); }
 
-  /* drewno formy piernikowej: słoje orzecha i drobne włókno */
+  /* drewno formy piernikowej: słoje orzecha (szerokie elipsy — końce słojów poza ekranem, bez pasa w poprzek sekcji) */
   .wood {
     background:
-      repeating-linear-gradient(93deg, rgb(255 220 180 / 0.025) 0 2px, transparent 2px 9px),
-      repeating-radial-gradient(ellipse 140% 22% at 30% 40%, rgb(0 0 0 / 0.18) 0 3px, transparent 3px 26px),
+      repeating-radial-gradient(ellipse 320% 26% at 30% 40%, rgb(0 0 0 / 0.15) 0 2px, transparent 2px 28px),
       linear-gradient(170deg, var(--color-walnut-hi) 0%, var(--color-walnut-2) 35%, var(--color-walnut) 100%);
   }
   /* ciepłe złote światło za bonem (pierwszy ekran i rezerwacja), jak w szkicu D */
   .wood-glow {
     background:
       radial-gradient(55% 60% at 80% 55%, rgb(236 211 138 / 0.1), transparent 70%),
-      repeating-linear-gradient(93deg, rgb(255 220 180 / 0.025) 0 2px, transparent 2px 9px),
-      repeating-radial-gradient(ellipse 140% 22% at 30% 40%, rgb(0 0 0 / 0.18) 0 3px, transparent 3px 26px),
+      repeating-radial-gradient(ellipse 320% 26% at 30% 40%, rgb(0 0 0 / 0.15) 0 2px, transparent 2px 28px),
       linear-gradient(170deg, var(--color-walnut-hi) 0%, var(--color-walnut-2) 35%, var(--color-walnut) 100%);
+  }
+  /* nazwa odlewana lukrem (Wordmark.tsx): data-state mold → pouring (canvas, JS) → set: zastygły lukier
+     z objętością pojawia się na wierzchu. */
+  .wordmark { display: block; transform: rotate(-3deg); transform-origin: left bottom; }
+  /* każda warstwa we własnej warstwie kompozycji: odświeżanie canvasu nie przerysowuje filtrów SVG */
+  .wordmark > svg, .wordmark > canvas { will-change: transform; }
+  .wm-set { opacity: 0; transform: translateY(1.5px); }
+  .wordmark[data-state="set"] .wm-set { opacity: 1; transform: none; transition: opacity 0.9s ease-out, transform 0.9s ease-out; }
+  @media (prefers-reduced-motion: reduce) {
+    .wordmark[data-state="set"] .wm-set { transition: none; }
   }
   /* nazwa wyciśnięta w drewnie */
   .carved {
@@ -67,14 +75,14 @@
   /* deska-forma z wyżłobioną ramką (karty dań) */
   .mold {
     background:
-      repeating-linear-gradient(93deg, rgb(255 220 180 / 0.03) 0 2px, transparent 2px 9px),
+      repeating-radial-gradient(ellipse 320% 30% at 40% 20%, rgb(0 0 0 / 0.1) 0 2px, transparent 2px 24px),
       linear-gradient(165deg, var(--color-walnut-hi), var(--color-walnut));
     box-shadow: inset 0 0 0 8px rgb(0 0 0 / 0.18), inset 0 0 0 9px rgb(255 214 170 / 0.12), 0 22px 40px -26px rgb(40 20 5 / 0.8);
   }
   /* deska na tle z drewna: jaśniejsza, ze złotą krawędzią i głębokim cieniem */
   .mold-lifted {
     background:
-      repeating-linear-gradient(93deg, rgb(255 220 180 / 0.03) 0 2px, transparent 2px 9px),
+      repeating-radial-gradient(ellipse 320% 30% at 40% 20%, rgb(0 0 0 / 0.1) 0 2px, transparent 2px 24px),
       linear-gradient(165deg, #7a5030, #533320);
     box-shadow: inset 0 0 0 8px rgb(0 0 0 / 0.16), inset 0 0 0 9px rgb(255 214 170 / 0.14), 0 0 0 1px rgb(201 162 74 / 0.6), 0 34px 64px -20px rgb(0 0 0 / 0.9);
   }
